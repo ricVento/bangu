@@ -1,4 +1,4 @@
-# Conlang — Estructura, Fases y Contenido
+# Bangu — Estructura, Fases y Contenido
 
 Este repositorio personal y público contiene los avances en **Typst** de la creación de mi lengua construida (*conlang*).
 
