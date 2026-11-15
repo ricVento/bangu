@@ -9,9 +9,11 @@ Siguiendo la guía de principios se ajustan los parámetros para que la categor�
 - `Corregido (Fixed)`: *Modificaciones en la gramática.* Errores en las glosas interlineales, ejemplos mal traducidos, erratas ortográficas, fallos de compilación en Typst, enlaces rotos en el sitio web.
 - `Eliminado (Removed)`: Hipótesis lingüísticas descartadas, ejemplos redundantes o secciones excluidas de la obra.
 
+Conservo la distinción entre `Cambiado` y `Modificado` para diferenciar los cambios entre lo estético y lo formal. El primero se reserva para cambios en la apariencia final del PDF mientras que el segundo se enfoca en los cambios exclusivos de la gramática.
+
 ## [En desarrollo]
 - Ajustes de stilos en Typst.
 - Capítulos nuevos en `Grammar`.
 
 ## 2026-11-14
-- Creación del Repositorio.
+- Creación del Repositorio y publicación de la página web.

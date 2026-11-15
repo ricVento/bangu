@@ -1,10 +1,15 @@
-# Bangu — Estructura, Fases y Contenido
+# Bangu — Proyecto de Conlang
 
-Este repositorio personal y público contiene los avances en **Typst** de la creación de mi lengua construida (*conlang*).
+**Bangu** NO es el nombre de mi *conlang*, es sencillamente la palabra que escogí en *Lojban* para "idioma, lengua". Este repositorio personal y público contiene los avances en **Typst** de la creación de mi lengua construida aun sin nombre.
+
+## Tipología Lingüística
+En **Bangu** encontrarás mi progreso en la creación de una lengua artificial artística-experimental (*artengelang*). Mi inspiración viene de fuentes tan diversas y distantes como pueden ser los idiomas del Cáucaso o el Japonés. 
+
+## Requisitos
+Estoy redactando directamente en Typst y en cuanto algunes capítulo de la Fase 2 hayan alcanzado un cierto grado de madurez los subiré a la página web donde se compilarán automáticamente en `.pdf`; dejo en el enlace al final de este documento. 
 
 ## Estructura y Fases del Proyecto
-
-### Fase 1: Research — Preparación e investigación (`pre-alpha`) 
+### Fase 1: Research — Preparación e investigación (`pre-alpha`)
 - **Investigación y organización:** Creación del repositorio, estructura de carpetas y esquema general del índice en `main.typ`. 
 - **Recopilación de anotaciones:** notas sueltas, reglas, bases de datos, hojas de cálculo y estructura general del idioma.
 - **Configuración tipográfica:** Diseño de la plantilla en Typst (estilos, fuentes, macros para glosas interlineales y tablas).
@@ -29,6 +34,7 @@ Redacción formal de los capítulos a partir de los borradores y notas previas. 
 - **Primera Edición:** Incorporación de las correcciones finales, maquetación definitiva y edición compilada en línea, lista para imprimir y citar.
 
 ## ¿Qué encontrarás aquí?
+- Actualmente en la Fase 1 con algunos avances en la Fase 2.
 - Un proceso de trabajo abierto y en tiempo real, con actualizaciones casi diarias tanto de contenido lingüístico como de diseño y código.
 - Un espacio de aprendizaje continuo donde la lingüística y la programación avanzan sobre la marcha, sin un cronograma rígido.
 - **Contacto y sugerencias:** Todas las críticas, dudas y aportes son bienvenidos. Al no tener redes sociales activas, puedes escribirme abriendo un mensaje en la pestaña de [Issues](../../issues).
@@ -38,6 +44,10 @@ Redacción formal de los capítulos a partir de los borradores y notas previas. 
 | Carpeta | Descripción | Estado |
 | :--- | :--- | :--- |
 | `Grammar/` | Código fuente en **Typst** (`main.typ`) de la gramática. Se compilará a PDF en su versión final. | En redacción |
+| `index.html` | Sitio web donde subiré los capítulos en la medida que se vayan desarrollando. Allí se compilará automáticamente el PDF. | Publicada |
+
+## Licencia
+Este código se comparte de manera abierta y gratuita. Eres libre de copiarlo, adaptarlo y utilizarlo en tus propios proyectos sin restricciones, siempre y cuando respetes las licencias y derechos de autor de los componentes, recursos o librerías de terceros que formen parte del repositorio o que estén incluidos aquí.
 
 ## Enlaces directos
 - **Sitio web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
