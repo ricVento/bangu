@@ -53,6 +53,12 @@ Redacción formal de los capítulos a partir de los borradores y notas previas. 
 ## Licencia
 Este código se comparte de manera abierta y gratuita. Eres libre de copiarlo, adaptarlo y utilizarlo en tus propios proyectos sin restricciones, siempre y cuando respetes las licencias y derechos de autor de los componentes, recursos o librerías de terceros que formen parte del repositorio o que estén incluidos aquí.
 
+## Contribuciones
+
+¿Quieres ayudar a mejorar esta gramática o corregir alguna errata? ¡Las contribuciones son bienvenidas!
+
+Por favor, revisa nuestra [Guía de Contribución](CONTRIBUTING.md) antes de enviar cambios para conocer las reglas de estilo y el formato de los mensajes de commit.
+
 ## Enlaces directos
 - **Sitio web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
 - **Capítulos en PDF:** [Descargar](https://github.io) \[Próximamente\]

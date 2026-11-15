@@ -1,5 +1,7 @@
 # Guía de Contribución y Commits
 
+¡Gracias por contribuir a este proyecto de gramática! 
+
 Para mantener un historial de cambios limpio y fácil de leer, utilizo una adaptación de **Conventional Commits** enfocada en la redacción y edición de textos.
 
 ## Estructura de los mensajes
@@ -9,7 +11,7 @@ Cada commit sigue este formato:
 ```text
 <tipo>(<alcance>): <descripción breve en imperativo>
 ```
-El `<alcance>` es opcional. 
+El `<alcance>` es opcional pero recomendable. 
 
 ---
 

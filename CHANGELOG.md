@@ -15,5 +15,10 @@ Conservo la distinción entre `Cambiado` y `Modificado` para diferenciar los cam
 - Ajustes de stilos en Typst.
 - Capítulos nuevos en `Grammar`.
 
+## 2026-11-15
+- Actualización del README.
+- Corrección en el sitio web.
+- Creación de CONTRIBUTING.
+
 ## 2026-11-14
 - Creación del Repositorio y publicación de la página web.
