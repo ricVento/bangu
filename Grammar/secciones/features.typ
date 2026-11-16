@@ -11,6 +11,12 @@ Este proyecto contiene la descripción gramatical de la lengua objeto de estudio
 
 La referencia al capítulo @generosyclases[§]
 
+Una tabla generada por Calc
+
+#figure(caption: [Título de mi Tabla],kind: table, block(width: 90%)[#table(columns: (1fr, 2fr, 2fr, 1fr), align: (left, center, center, right), stroke: none, table.hline(y: 0, stroke: 1pt + black),[x],[x],[x],[x],table.hline(y: 1, stroke: 0.5pt + gray),[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],table.hline(y: 8, stroke: 1pt + black),)])<referencia>
+
+Con su referencia a la... @referencia.
+
 == Metodología
 Los datos fueron recolectados mediante sesiones de elicitación directa. 
 
@@ -59,9 +65,8 @@ Un parrafo para separar
   block(width: 90%)[
     #table(
       columns: (4fr,) + (1fr,) * 6,
-      //stroke: none,
-       align: left,
-       table.cell(rowspan: 2)[Gender assigment], table.cell(colspan: 3)[Singular], table.cell(colspan: 3)[Plural], [#rotate(-90deg, reflow: true)[prefix]], [#rotate(-90deg, reflow: true)[infix]], [#rotate(-90deg, reflow: true)[suffix]], [#rotate(-90deg, reflow: true)[prefix]], [#rotate(-90deg, reflow: true)[infix]], [#rotate(-90deg, reflow: true)[suffix]], [#_i male human], [1], [2], [3], [4], [5], [6], [#_ii female human], [7], [8], [9], [10], [11], [12], [#_iii animals & inanimate objects], [13], [14], [15], [16], [17], [18], [#_iv animate & inanimate objects], [19], [20], [21], [22], [23], [24], [#_v inanimate objects & names of young], [25], [26], [27],  [28], [29], [30]
+      align: left,
+      table.cell(rowspan: 2)[Gender assigment], table.cell(colspan: 3)[Singular], table.cell(colspan: 3)[Plural], [#rotate(-90deg, reflow: true)[prefix]], [#rotate(-90deg, reflow: true)[infix]], [#rotate(-90deg, reflow: true)[suffix]], [#rotate(-90deg, reflow: true)[prefix]], [#rotate(-90deg, reflow: true)[infix]], [#rotate(-90deg, reflow: true)[suffix]], [#_i male human], [1], [2], [3], [4], [5], [6], [#_ii female human], [7], [8], [9], [10], [11], [12], [#_iii animals & inanimate objects], [13], [14], [15], [16], [17], [18], [#_iv animate & inanimate objects], [19], [20], [21], [22], [23], [24], [#_v inanimate objects & names of young], [25], [26], [27],  [28], [29], [30]
     )	
   ]  
 )<mi-tabla1>
@@ -116,9 +121,17 @@ Unas glosas con dos subejemplos
 
 Si se quieren usar subejemplos no son necesarios los espacios dobles antes de `[-]`, basta con usar ` + - texto` en la primera linea, luego la segunda sí exige mantener la linea de sangría.
 
-Además, puedes acceder a los ejemplos de una sola linea como @gl o a los que contienen subejemplos de forma global como #ex-ref(<pair>) con las funciones `@label` o `#ex-ref(<label>)`. Estos ultimos se pueden referenciar tambien individualmente como @pair:a y @pair:b mediante la forma `@ref:a|b`.
+== Referencias a las glosas
 
-Se pueden hacer un rango de ejemplos como en @gl[@pair] `@label[label2]` o @pair:a[@pair:b] `@label:a[@label:b]`. Todos son referencias válidas.
+Se puede acceder a los ejemplos de una sola linea como @gl poniendo un `#ex-label(<label>)` dentro de `#example` justo antes de la primera linea. El recurso nativo de colocar `<label>` dentro o fuera de `#example` no funciona con `eggs`.
+
+Los que contienen subejemplos se pueden referenciar de forma global como #ex-ref(<pair>) con las funciones `@label` o `#ex-ref(<label>)`. Estos ultimos se pueden referenciar tambien individualmente como @pair:a y @pair:b mediante la forma `@label:a|b`.
+
+Se pueden hacer un rango de ejemplos como en @gl[@pair] con `@label[label2]` o @pair:a[@pair:b] `@label:a[@label:b]`.
+
+Si quiero hacer referencia a una tabla uso el método nativo como @mi-tabla1; pero tambien puedo crear un enlace a un punto especifico del documento usando `#link(<label>)[texto del enlace]`, por ejemplo la tabla de transcripción se indica con (lo que sigue es un enlace dinámico) #link(<tabla-transcripcion>)[la tabla de mencionada]
+
+Todas son referencias válidas.
 
 == Notas sobre morfología
 Este ejemplo no lo entiendo bien...
@@ -133,69 +146,23 @@ Este ejemplo no lo entiendo bien...
 == Paradigmas de Declinación Nominal
 A continuación, se presenta la declinación de los sustantivos de la primera clase para el tema en _–a_:
 
-#align(center)[
-  #table(
-    columns: (1fr, 2fr, 2fr),
-    align: (left, center, center),
-    stroke: none,
-    table.hline(y: 0, stroke: 1pt + black), // Línea superior externa
-    [*Caso*], [*Singular* (M/F)], [*Plural* (N)],
-    table.hline(y: 1, stroke: 0.5pt + gray), // Línea divisoria del encabezado
-    [#_abs], [rosa-a],   [rosa-ae],
-    [#_abs], [rosa-a],   [rosa-ae],
-    [#_abs], [rosa-am],  [rosa-as],
-    [#_abs], [rosa-ae],  [rosa-arum],
-    [#_abs], [rosa-ae],  [rosa-is],
-    [#_abs], [rosa-a],   [rosa-is],
-    table.hline(y: 7, stroke: 1pt + black), // Línea inferior externa
-  )
-]
+#figure(caption: [Primera Declinación del Latín], kind: table, block(width: 90%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],[rosa],[rosae],[Acc],[rosam],[rosas],[Gen],[rosae],[rosarum],[Dat],[rosae],[rosis],[Abl],[rosa],[rosis], table.hline(y: 6, stroke: 1pt + black),)])<lat-1st>
 
-Fijate como hago ref a @mi-tabla1
+Fijate como hago ref a @lat-1st
 
-== Paradigma del Sustantivo (Asimétrico)
+== Paradigma del Sustantivo (Estrecho)
 
-#align(center)[
-  #table(
-    columns: (auto, auto, auto),
-    align: (left, center, center),
-    stroke: none,
-    table.hline(y: 0, stroke: 1pt + black),
-    [*Caso*], [*Singular*], [*Plural*],
-    table.hline(y: 1, stroke: 0.5pt + gray),
-    [#_abs], [kel-u],  [kel-wi],
-    [#_abs], [kel-un], [kel-win],
-    [#_abs], [kel-is], [kel-bi],
-    [#_abs], [kel-bi], [kel-bi],
-    table.hline(y: 5, stroke: 1pt + black),
-  )
-]
+#figure(caption: [Segunda Declinación del Latín], kind: table, block(width: 50%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],[amicus],[amici],[Acc],[amicum],[amicos],[Gen],[amici],[amicorum],[Dat],[amico],[amicis],[Abl],[amico],[amicis], table.hline(y: 6, stroke: 1pt + black),)])<lat-2st>
 
-== Paradigma de Declinación Irregular
+== Tabla con combinacion de celdas
 
-#align(center)[
-  #table(
-    columns: (auto, auto, auto),
-    align: (left, center, center),
-    stroke: none,    
-    table.hline(y: 0, stroke: 1pt + black),
-    [*Caso*], [*Singular*], [*Plural*],
-    table.hline(y: 1, stroke: 0.5pt + gray),
-    [#_abs], [nix], [nix-es],
-    [#_abs], [nix-em], [nix-es],
-    [#_abs], [nix-is], table.cell(rowspan: 2, align: center + horizon)[
-      *nix-um* // \ (Forma sincretizada)
-    ],
-    [#_abs], [nix-i], // Esta celda queda vacía porque el Plural del #gen la invade hacia abajo
-    table.hline(y: 5, stroke: 0.5pt + gray),
-    [#_abs], table.cell(colspan: 2, align: center)[
-      *nix-i-bux* // \ (Morfema global de espacio)
-    ],
-    table.hline(y: 6, stroke: 1pt + black),
-  )
-]
+#figure(caption: [Segunda Declinación del Latín], kind: table, block(width: 50%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],[amicus],[amici],[Acc],[amicum],[amicos],[Gen],[amici],[amicorum],[Dat],table.cell(rowspan: 2, align: center + horizon)[amico],table.cell(rowspan: 2, align: center + horizon)[amicis],[Abl], table.hline(y: 6, stroke: 1pt + black),)])<lat-2st>
 
-== Un ejemplo largo
+A continuación un caso extremo que mezcla columnas y filas.
+
+#figure(caption: [Quinta Declinación del Latín], kind: table, block(width: 50%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],table.cell(colspan: 2, align: center)[res],[Acc],[rem],[res],[Gen],table.cell(rowspan: 2, align: center + horizon)[rei],[rerum],[Dat],table.cell(rowspan: 2, align: center + horizon)[rebus],[Abl],[re], table.hline(y: 6, stroke: 1pt + black),)])<lat-5st>
+
+== Un ejemplo de glosa largo
 Este es un ejemplo mas largo
 #example[
   - este es un ejemplo más largo donde las palabras sencillamente se tienen que cortar y seguir en una linea diferente porque no alcanza la página

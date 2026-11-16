@@ -1,12 +1,14 @@
 // Importar todo desde config
 #import "../config.typ": *
 
-= Sistema de Escritura
-El sistema de escritura usado en esta gramática es el mismo usado en otros trabajos sobre otras variedades de lenguas del Cáucaso. En la tabla inferior se incluye la equivalencia en alfabeto cirílico, de uso extenso en el área del #_x. Las letras entre corchetes representan sonidos que solo ocurren en préstamos.
+= Sistema de Transcripción
+El método de transcripción usado en esta gramática es el mismo usado en distintos trabajos sobre otras variedades de lenguas del Cáucaso. En la tabla inferior se incluye la equivalencia en alfabeto cirílico, de uso extenso en el área del #_x. Las letras entre corchetes representan sonidos que solo ocurren en préstamos.
 
 #v(0.5cm)
 
-#figure(
+#[
+  #set figure(numbering: none) // una tabla sin numerar
+  #figure(
 	table(
 	columns: (1fr, ) * 7,
 	align: center,
@@ -19,4 +21,6 @@ El sistema de escritura usado en esta gramática es el mismo usado en otros trab
 	[c], [ə], [ʊ], [], [g], [ə],  [ʷ],
 	[d], [ə], [ʃ], [], [h], [ə],  [ʂ],
 	table.hline(y: 5, stroke: 1pt + black),
-))
+	)
+  )
+]<tabla-transcripcion>
