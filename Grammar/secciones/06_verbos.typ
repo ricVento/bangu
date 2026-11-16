@@ -17,6 +17,8 @@ El #_prs distingue un aspecto puntual (aoristo) y otro progresivo.
 + *presentativo #_prs*: presente continuo o progresivo
 + *enunciativo/narrativo #_enun*: presente simple o puntual, pres historico, pres gnomico
 
+Existe un presente progresivo perifrastico literal al español/inglés 'estoy haciendo'.
+
 ==== Pasado
 En el #_pst hay tres versiones del pasado: 
 + _puntual e indefinido_
@@ -24,10 +26,12 @@ En el #_pst hay tres versiones del pasado:
  + *accidental/involuntario #_invol*: lo hizo sin querer, por accidente, sin darse cuenta
  + *truncado #_trun*: pres irr, casi hace 
 + _acabado, conclusivo o perfectivo_ #_pfv (no distingue durativo/puntual)
- + *perfecto #_pf*: ha hecho, ha estado haciendo, pasó y sigue pasando
+ + *perfecto #_pf*: ha hecho, ha estado haciendo, pasó y sigue pasando. Es un resultativo
  + *pluperfecto #_ppf*: habia hecho, habia estado haciendo, pasó pero ya no esta pasando
 + _imperfectivo_ #_ipfv
  + *imperfecto*: el tiempo imperfecto clásico (#_impf), hacia, solia hacer, estaba haciendo
+ 
+Existe un pasado progresivo perifrastico literal al español/inglés 'estaba haciendo'.
 
 ==== Futuro
 Distingue un #_fut cierto con plazo, y otro incierto o más bien probable
@@ -35,6 +39,8 @@ Distingue un #_fut cierto con plazo, y otro incierto o más bien probable
 + *eventual #_event*: va a hacer, algun día hará
 + *intencional #_int*: fut en el pasado, iba a hacer
 + *permisivo #_perm*: que haga, dejemos que haga, puede que haga
+
+Existe un futuro progresivo perifrastico literal al español/inglés 'estaré/voy a estar haciendo'.
 
 === Evidencial
 Es el modo (epistémico) de la suposicion, inferencias o lo no vivido. Grado de conocimiento, certeza o probabilidad que tiene el hablante sobre el enunciado. El ultimo puede usarse en el presente.
