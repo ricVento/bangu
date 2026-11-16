@@ -32,7 +32,7 @@
 	#align(bottom + right)[
       #text(size: 18pt,
 	  fill: rgb("#FFFFFF")
-	  )[Draft Nov 2026]
+	  )[Draft]
     ]
   ]
 ]

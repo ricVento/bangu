@@ -8,7 +8,7 @@ Estos son los tiempos verbales en #_x.
 Planeo que cada verbos sintético tenga tres bases: aoristo #_aor, imperfectivo #_ipfv y perfectivo #_pfv. Con cada una de ellas se forma todo el sistema de TAM.
 
 == Tiempos <tiemposverbales>
-Los tiempos se agrupan en diez modos (ind, epis, deb, subj, opt, pot, inf, imp, part, msd), pero este es un listado general
+Los tiempos se agrupan en diez modos (Indicativo, Evidencial, Debitivo, Subjuntivo, Optativo, Potencial, Infinitivo, Imperativo, Participio, Masdar), pero este es un listado general.
 
 === Indicativo 
 El modo #_ind es el modo de la realidad, el único que distingue claramente presente, pasado y futuro con 12 tiempos verbales en total.
