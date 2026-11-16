@@ -1,26 +1,20 @@
-# Caché de Python
-__pycache__/
-*.pyc
+# Documentos compilados
+*.pdf
 
-# Entornos virtuales
+# Borradores y pruebas de Typst o web
+test-*.typ
+test-*.html
+
+# Caché y entornos de Python
+__pycache__/
+*.py[cod]
 .venv/
 env/
+.env
 
-# Archivos del sistema (Windows)
+# Archivos del sistema y editor
 Thumbs.db
 desktop.ini
 .DS_Store
-
-# Dependencias de JavaScript (por si las usas luego)
-node_modules/
-
-# Archivos compilados y otros documentos
-*.pdf
-*.odt
-*.ods
-*.exe
-*.wav
-*.db
-
-# Ignorar la carpeta privada
 .vscode/
+node_modules/

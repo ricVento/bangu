@@ -1,6 +1,6 @@
-# Bangu — Proyecto de Conlang
+# Bangu — Proyecto para un Conlang
 
-**Bangu** no es el nombre de mi *conlang*, es una palabra en *Lojban* que significa "idioma, lengua" y que escogí como nombre para mi proyecto. Este repositorio personal y público contiene los avances en **Typst** de la creación de mi lengua construida, la cual aun carece de un nombre.
+**Bangu** es una palabra en *Lojban* que significa "idioma, lengua". La escogí como nombre para mi proyecto. Este repositorio personal y público contiene los avances en **Typst** de la creación de mi lengua construida (**conlang**), la cual aun carece de un nombre.
 
 Aquí encontrarás mis progresos en la creación de una lengua artificial artística y experimental (*artengelang*). 
 
