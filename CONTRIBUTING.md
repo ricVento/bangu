@@ -11,9 +11,15 @@ Cada commit sigue este formato:
 ```text
 <tipo>(<alcance>): <descripción breve en imperativo>
 ```
-El `<alcance>` es opcional pero recomendable. 
+### Alcances sugeridos (Scopes)
+El `<alcance>` es opcional pero recomendable. Se usa el nombre del capítulo o el área lingüística entre paréntesis:
 
----
+* `ortografia`
+* `morfologia`
+* `sintaxis`
+* `verbos`
+* `puntuacion`
+* `glosario`
 
 ## Tipos de Commit
 
@@ -31,32 +37,6 @@ Usualmente hago un commit al final del día; si realicé cambios en más de un �
 feat > fix > refactor > style > docs > chore
 ```
 
----
-
-## Alcances sugeridos (Scopes)
-
-Se usa el nombre del capítulo o el área lingüística entre paréntesis:
-
-* `ortografia`
-* `morfologia`
-* `sintaxis`
-* `verbos`
-* `puntuacion`
-* `glosario`
-
----
-
-## Ejemplos de buenos commits
-
-* `feat(verbos): añade sección sobre el pretérito pluscuamperfecto`
-* `fix(ortografia): corrige tilde diacrítica en los ejemplos de monosílabos`
-* `style(sintaxis): alinea columnas en la tabla de nexos subordinantes`
-* `refactor(morfologia): simplifica la explicación de los pronombres átonos`
-* `docs: actualiza guía de estilo en el README`
-* `chore: reorganiza carpetas de imágenes y recursos`
-
-## Reglas rápidas de estilo para los mensajes
-
-1. **Se usa el modo imperativo:** se escribe *"añade"*, *"corrige"* o *"ajusta"* en lugar de *"añadido"* o *"corrigiendo"*.
-2. **Breve:** la primera línea no supera los **70 caracteres**.
-3. **Sin punto final:** no termina el título del commit con un punto.
+## Enlaces directos
+- **Sitio web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
+- **Historial de avances:** Consulta los cambios, nuevas secciones agregadas y correcciones en el archivo [CHANGELOG.md](CHANGELOG.md).

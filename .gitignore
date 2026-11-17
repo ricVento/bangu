@@ -3,6 +3,7 @@
 
 # Borradores y pruebas de Typst o web
 test-*.typ
+test-*.md
 test-*.html
 
 # Caché y entornos de Python

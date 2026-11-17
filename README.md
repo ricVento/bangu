@@ -1,65 +1,62 @@
-# Bangu — Proyecto para un Conlang
+# Bangu — Proyecto para Conlang
 
-**Bangu** es una palabra en *Lojban* que significa "idioma, lengua". La escogí como nombre para mi proyecto. Este repositorio personal y público contiene los avances en **Typst** de la creación de mi lengua construida (**conlang**), la cual aun carece de un nombre.
+**Bangu** significa "idioma, lengua" en *Lojban* y es el nombre del repositorio público donde podrás seguir los avances en **Typst** de la gramática de mi *conlang*. Aquí encontrarás los progresos en la creación de una lengua artificial artística y experimental (*artengelang*). 
 
-Aquí encontrarás mis progresos en la creación de una lengua artificial artística y experimental (*artengelang*). 
+## Hoja de Ruta
 
-Mi inspiración viene de fuentes tan diversas y distantes como pueden ser los idiomas del Cáucaso o el Japonés. 
+Para este proyecto sigo un modelo de **desarrollo iterativo e incremental**, la gramática se construye a través de **tres flujos de trabajo continuo que ocurren en paralelo** sobre los distintos capítulos y convergen en la publicación de una gramática en su versión final (`Release v1.0`). Durante el proceso habrá modificaciones drásticas sobre la marcha antes de alcanzar la madurez.
 
-## Requisitos
-Estoy redactando directamente en **Typst** y en cuanto algunos capítulos de la **Fase 2** hayan alcanzado un cierto grado de madurez los subiré a la página web donde se compilarán automáticamente en `.pdf` y se podrán descargar; dejo en el enlace al final de este documento. Mientras tanto, todo está disponible en `.typ`.
+### Flujos de trabajo (en paralelo)
 
-## Estructura y Fases del Proyecto
-### Fase 1: Research — Preparación e investigación (`pre-alpha`)
-*Fase en desarrollo.*
-- **Investigación y organización:** Creación del repositorio, estructura de carpetas y esquema general del índice en `main.typ`. 
-- **Recopilación de anotaciones:** notas sueltas, reglas, bases de datos, hojas de cálculo y estructura general del idioma.
-- **Configuración tipográfica:** Diseño de la plantilla en **Typst** (estilos, fuentes, macros para glosas interlineales y tablas).
+* **Investigación y documentación** 
+  * Recopilación de fuentes, análisis lingüístico, definición de reglas y búsqueda de ejemplos reales. 
+  * Creación del repositorio, estructura de carpetas y esquema general del índice en `main.typ`.
+  * Toma de notas, cración de reglas, bases de datos, hojas de cálculo y estructura general del idioma.
+  * Diseño de la plantilla en **Typst** (estilos, fuentes, macros para glosas interlineales y tablas).
 
-### Fase 2: Draft — Redacción de capítulos (`alpha`) 
-*Fase Iniciada*
+* **Redacción de borradores** 
+  * Escritura, estructuración pedagógica y publicación preliminar de los capítulos en la caperta `Grammar/` en este repositorio. 
+  * Redacción formal de los capítulos a partir de los borradores y notas previas.
 
-Redacción formal de los capítulos a partir de los borradores y notas previas. Proceso que no lleva un orden de prioridad y que sufrirá modificaciones drásticas sobre la marcha antes de alcanzar la fase beta. 
+* **Revisión pública y preimpresión** 
+  * Manuscrito íntegro disponible de principio a fin en `.pdf` para que colegas, lingüistas o estudiantes revisen ejemplos y den retroalimentación sobre la claridad de las explicaciones. 
+  * Lectura crítica, validación de ejemplos, corrección de estilo y ajustes de maquetación basados en los comentarios de la comunidad. 
 
-#### Lista de Capítulos (no exhaustiva)
-- **Introducción y contexto:** Situación sociolingüística, historia, hablantes, metodología y abreviaturas.
-- **Fonología y Fonotáctica:** Inventario de vocales y consonantes, estructura silábica, acento y procesos fonológicos.
-- **Morfología Nominal:** Sustantivos, pronombres, adjetivos, género, número, casos y clasificadores.
-- **Morfología Verbal:** Tiempo, aspecto, modo (TAM), persona, voz, valencia y paradigmas de conjugación.
-- **Otras clases de palabras y derivación:** Adverbios, adposiciones, conjunciones, partículas y formación de palabras.
-- **Sintaxis:** Orden de constituyentes, tipos de oraciones (simples, compuestas, subordinadas), negación e interrogación.
-- **Apéndices y textos glosados:** Inclusión de textos completos analizados, listas de verbos irregulares y léxico básico.
-- **Vocabulario:** Diccionario, lista de palabras.
-
-### Fase 3: Peer Review — Revisión externa (`beta`)
-- **Borrador completo (Beta):** Manuscrito íntegro disponible de principio a fin en `.pdf` para que colegas, lingüistas o estudiantes revisen ejemplos y den retroalimentación sobre la claridad de las explicaciones.
-
-### Fase 4: Publication — Cierre y lanzamiento (`final`)
-- **Primera Edición:** Incorporación de las correcciones finales, maquetación definitiva y edición compilada en línea, lista para imprimir y citar.
+### Hito de lanzamiento
+* **Edición Final:** Incorporación de las correcciones finales, maquetación definitiva y edición compilada en línea, lista para imprimir y citar. Consolidación de todos los capítulos revisados, cierre de edición y preparación del archivo maestro para distribución.
 
 ## ¿Qué encontrarás aquí?
-- **IMPORTANTE:** Actualmente en la **Fase 1** con algunos avances en la **Fase 2**.
-- Un proceso de trabajo abierto y en tiempo real, con actualizaciones casi diarias tanto de contenido lingüístico como de diseño y código.
-- Un espacio de aprendizaje continuo donde la lingüística y la programación avanzan sobre la marcha, sin un cronograma rígido.
-- **Contacto y sugerencias:** Todas las críticas, dudas y aportes son bienvenidos. Al no tener redes sociales activas, puedes escribirme abriendo un mensaje en la pestaña de [Issues](../../issues).
+* Un proceso de trabajo **abierto y en tiempo real**, con actualizaciones casi diarias tanto de contenido lingüístico como de diseño y código.
+* Un espacio de aprendizaje continuo donde la lingüística y la programación avanzan **sobre la marcha**, sin un cronograma rígido.
 
 ## Contenido del repositorio
 
-| Carpeta | Descripción | Estado |
+| Entidad | Descripción | Estado |
 | :--- | :--- | :--- |
-| `Grammar/` | Código fuente en **Typst** (`main.typ`) de la gramática. Se compilará a PDF en su versión final. | En redacción. |
-| `index.html` | Sitio web donde subiré los capítulos en la medida que se vayan desarrollando. Allí se compilarán automáticamente los PDF's. | Publicada |
+| `Grammar/` | Código fuente en **Typst** (`main.typ`) de la gramática. Se compilará a PDF en su versión final. | Desarrollo |
+| `index.html` | Sitio web donde subiré los capítulos en la medida que se vayan desarrollando. Allí se compilarán automáticamente los PDF's. | Publicado |
+| `docs` | Documentación del repositorio (README, Registro de cambios, Guía de Contribución) | Publicado |
 
 ## Licencia
 Este código se comparte de manera abierta y gratuita. Eres libre de copiarlo, adaptarlo y utilizarlo en tus propios proyectos sin restricciones, siempre y cuando respetes las licencias y derechos de autor de los componentes, recursos o librerías de terceros que formen parte del repositorio o que estén incluidos aquí.
 
-## Contribuciones
+## Guía de Contribución y Estados de los Capítulos
 
 ¿Quieres ayudar a mejorar esta gramática o corregir alguna errata? ¡Las contribuciones son bienvenidas!
 
-Por favor, revisa nuestra [Guía de Contribución](CONTRIBUTING.md) antes de enviar cambios para conocer las reglas de estilo y el formato de los mensajes de commit.
+Por favor, revisa nuestra [Guía de Contribución](CONTRIBUTING.md) antes de enviar cambios para conocer las reglas de estilo y el formato de los mensajes de commit. Cada sección o capítulo de la gramática avanza a su propio ritmo. 
+
+| Estado | Significado | ¿Cómo puedes ayudar hoy? |
+| :--- | :--- | :--- |
+| **Desarrollo** | Se están recopilando datos, bibliografía y ejemplos base. El texto está en plena redacción y sujeto a cambios estructurales grandes. | Sugiere fuentes bibliográficas, casos de uso difíciles o dudas frecuentes sobre el tema. Aporta ejemplos adicionales o señala si alguna explicación inicial resulta confusa. |
+| **Borrador** | El contenido del borrador está completo y en etapa de control de calidad previo a imprenta. | Reporta erratas, problemas de claridad, incoherencias entre capítulos o errores de formato. |
+| **Publicado** | El capítulo está aprobado y congelado para la versión final. | Solo se aceptan reportes de errores críticos de tipografía o formato. |
+
+### Cómo enviar tus aportes
+
+1. **Para comentarios rápidos, dudas o sugerencias:** Abre un [**Issue**](../../issues) indicando el nombre del capítulo en el título. Todas las críticas, dudas y aportes son bienvenidos.
+2. **Para correcciones directas de texto o erratas:** Haz un *fork* del repositorio, edita el archivo correspondiente y envía un **Pull Request** explicando brevemente tu cambio.
 
 ## Enlaces directos
 - **Sitio web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
-- **Capítulos en PDF:** [Descargar](https://github.io) \[Próximamente\]
 - **Historial de avances:** Consulta los cambios, nuevas secciones agregadas y correcciones en el archivo [CHANGELOG.md](CHANGELOG.md).

@@ -32,8 +32,8 @@ jobs:
 
       - name: Compilar Grammar/main.typ a PDF
         run: |
-          typst compile Grammar/main.typ _site/pdfs/grammar.pdf
-          # typst compile Grammar/folder/file.typ _site/pdfs/file.pdf
+          typst compile --root Grammar Grammar/main.typ _site/pdfs/grammar.pdf
+          # typst compile --root Grammar Grammar/secciones/file.typ _site/pdfs/file.pdf
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
