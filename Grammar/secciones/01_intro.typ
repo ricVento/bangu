@@ -4,6 +4,6 @@
 = Introducción
 Este proyecto contiene la descripción gramatical de la lengua objeto de estudio. Es un conlang con espiritu caucásico.
 
-Este es el nombre de mi #xxx
+Este es el nombre de mi #_x
 
 Si quisiera segui escribiendo solo debo hacerlo sin problemas.

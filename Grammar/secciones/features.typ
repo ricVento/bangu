@@ -103,7 +103,7 @@ Usando `[~]` se puede omitir una palabra dejando el espacio vacío
   #ex-label(<gl>)
   - donde esta el _topic_ perro
   - where is the ~ dog
-  'donde esta el perro?'
+  'donde esta el perro?' #trailing[(Érase una vez)] // la linea de escape \ es opcional si el texto es largo para que no se superponga
 ]
 
 Unas glosas con dos subejemplos
@@ -120,6 +120,15 @@ Unas glosas con dos subejemplos
 ]
 
 Si se quieren usar subejemplos no son necesarios los espacios dobles antes de `[-]`, basta con usar ` + - texto` en la primera linea, luego la segunda sí exige mantener la linea de sangría.
+
+When typesetting glosses, it’s common that you need to put a bracket next to the following word with no tabulation between them, but align the other lines with the word, not the bracket. A clean way to do this is to add a hidden printed bracket with the built-in hide.
+
+A veces es necesario que el texto inferior se alinee con una palabra que empieza con corchetes, en ese caso se usa `#hb()` (hide-braket) para añadir un inicio de corchete oculto.
+
+#example[
+- cet exemple a [un DP]
+- this example has #hb()a DP
+]
 
 == Referencias a las glosas
 

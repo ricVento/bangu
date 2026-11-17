@@ -51,32 +51,41 @@
 #pagebreak()
 
 #set page(numbering: "i")
+
 #counter(page).update(1)
 
-// TABLA DE CONTENIDO AUTOMATICA
+// TABLA DE CONTENIDO AUTOMATICA – Se incluye en el Bookmark pero no se cuenta en la numeración
 #{
+  {
+    show heading: none
+    heading(numbering: none, bookmarked: true, outlined: false)[Contenido]
+  }
   show outline.entry.where(level: 1): it => {
-    v(12pt, weak: true)
+    v(16pt, weak: true)
     strong(it)
   }
   outline(
     title: "Contenido",
-	indent: 1.5em
+    indent: 1.5em
   )
 }
+
 #pagebreak()
 
-// ESCRITURA Y AGRADECIMIENTO
+// SECCIONES SIN NUMERO EN INDICE
 #{
   set heading(numbering: none)
+  
   include "secciones/ortografia.typ"
   pagebreak()
+  
   include "secciones/agradecimientos.typ"
   pagebreak()  
 }
 
-// SECCIONES EN ORDEN
+// CAPITULOS EN ORDEN
 #set page(numbering: "1") 
+
 #counter(page).update(1) 
 
 #page(numbering: none, header: none)[
@@ -88,7 +97,6 @@
   ]
 ]
 
-/*
 #include "secciones/01_intro.typ"
 
 #page(numbering: none, header: none)[
@@ -102,7 +110,6 @@
 
 #include "secciones/02_fonologia.typ"
 #pagebreak()
-*/
 
 #page(numbering: none, header: none)[
   #align(center)[
@@ -116,12 +123,8 @@
 #include "secciones/03_sustantivos.typ"
 #pagebreak()
 
-/*
-
 #include "secciones/04_adjetivos.typ"
 #pagebreak()
-
-*/
 
 #include "secciones/05_pronombres.typ"
 

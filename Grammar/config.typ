@@ -57,7 +57,9 @@
 #let _iv = abbreviation("iv", "clase nominal 4 \ninanimado")
 #let _v = abbreviation("v", "clase nominal 5 \ninanimado")
 
-#let _x = "Aghwar"
+#let _x = "Aghvar"
+
+#let hb() = hide[\[]
 
 #let asterismo = {
   v(1em)
@@ -70,38 +72,6 @@
   set page(
     paper: "a4",
     margin: (x: 3cm, y: 4cm),
-	
-	// INSERTA MARCA DE SECCION EN ENCABEZADO DE PAGINA
-    header: context {
-      let i_pag = here().page()
-      
-      let cap_actual = query(heading.where(level: 1))
-        .find(h => h.location().page() == i_pag)
-        
-      let cap = none
-      
-      if cap_actual != none {
-        cap = cap_actual
-      } else {
-        let caps_atras = query(heading.where(level: 1).before(here()))
-        if caps_atras.len() > 0 {
-          cap = caps_atras.last()
-        }
-      }
-      
-      if cap != none {
-        if cap.body == [Contenido] or cap.body == [Sistema de Escritura] or cap.body == [Agradecimientos] {
-          return none
-        }
-        
-        let num = counter(heading).at(cap.location()).first()
-        
-        set align(left)
-        text(size: 9pt, fill: black)[
-          #num #cap.body
-        ]
-      }
-    }
   )
   
   set text(
