@@ -19,10 +19,14 @@ El `<alcance>` es opcional, pero ayuda mucho a ubicarnos. Usa el nombre del cap�
 
 * 🔤 `ortografia`
 * 🧩 `morfologia`
-* 🏗️ `sintaxis`
+* 📦 `sustantivos y adjetivos`
+* 👉 `pronombres`
 * ⚡ `verbos`
+* 📍 `adverbios y postposiciones`
+* ⚙️ `sintaxis`
 * ✒️ `puntuacion`
 * 📖 `glosario`
+* 📚 `corpus`
 
 ---
 
