@@ -17,16 +17,20 @@ Todo commit debe seguir esta fórmula:
 ### 🎯 Alcances sugeridos (Scopes)
 El `<alcance>` es opcional, pero ayuda mucho a ubicarnos. Usa el nombre del capítulo o área lingüística entre paréntesis:
 
-* 🔤 `ortografia`
-* 🧩 `morfologia`
-* 📦 `sustantivos y adjetivos`
-* 👉 `pronombres`
-* ⚡ `verbos`
-* 📍 `adverbios y postposiciones`
-* ⚙️ `sintaxis`
-* ✒️ `puntuacion`
-* 📖 `glosario`
-* 📚 `corpus`
+* Bloque 1: Bases del sistema
+  * 🗣️ `fonetica` (inventario de sonidos y fonología)
+  * ✒️ `ortografia` (sistemas de escritura y transcripción)
+  * 🧩 `morfologia` (estructura general y formación de palabras)
+* Bloque 2: Categorías gramaticales
+  * 📦 `nominales` (sustantivos, adjetivos y determinantes)
+  * 🔢 `numerales` (cardinales, ordinales y otros cuantificadores)
+  * 👉 `pronombres` (personales, demostrativos e interrogativos)
+  * ⚡ `verbos` (conjugación, tiempo, aspecto y modo)
+  * 📍 `invariables` (adverbios, postposiciones y partículas)
+* Bloque 3: Estructura y léxico
+  * ⚙️ `sintaxis` (tipología sintáctica y estructura de oraciones)
+  * 📖 `glosario` (léxico básico y listas de vocabulario)
+  * 📚 `corpus` (textos glosados y narraciones)
 
 ---
 
@@ -36,7 +40,7 @@ El `<alcance>` es opcional, pero ayuda mucho a ubicarnos. Usa el nombre del cap�
 | :--- | :--- | :--- |
 | ✨ **`feat`** | **Nuevo contenido** | Añades un capítulo, regla gramatical, sección o ejemplos nuevos. |
 | 🐛 **`fix`** | **Corrección** | Arreglas erratas, faltas de ortografía o ejemplos incorrectos. |
-| ♻️ **`refactor`** | **Formato y diseño** | Reescribes para dar claridad o mueves secciones, ajusta formato y estilos. |
+| 🎨 **`style`** | **Formato y diseño** | Reescribes para dar claridad o mueves secciones, ajusta formato y estilos. |
 | 📝 **`docs`** | **Documentación** | Actualizas el `README.md`, esta guía o notas internas. |
 | 🔧 **`chore`** | **Mantenimiento** | Haces ajustes técnicos en carpetas, plantillas o configuraciones. |
 
