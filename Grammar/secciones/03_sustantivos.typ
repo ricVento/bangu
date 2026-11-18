@@ -47,9 +47,3 @@ Hay seis direcciones; indica específicamente si el objeto está en movimiento y
 La unión de orientaciones y direcciones da lugar a los 42 casos espaciales del #_x.
 
 #asterismo
-
-#example[
- - ay ʃid, ɣa-ʃa!
- - hey brother-#_abs come
- 'hermano, ven acá'
-]

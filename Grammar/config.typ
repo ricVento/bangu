@@ -107,6 +107,9 @@
   ) 
   
   set enum(indent: 10pt, full: true)
+  
+  // AGREGA PADDING A LAS TABLAS
+  show figure.where(kind: table): set block(above: 20pt, below: 20pt)
 
   // PONE TITULOS DE TABLAS ARRIBA-IZQUIERDA
   set figure.caption(position: top)
