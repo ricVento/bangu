@@ -1,62 +1,57 @@
-# Bangu — Proyecto para Conlang
+# 🗣️ Bangu — Laboratorio de Conlang
 
-**Bangu** significa "idioma, lengua" en *Lojban* y es el nombre del repositorio público donde podrás seguir los avances en **Typst** de la gramática de mi *conlang*. Aquí encontrarás los progresos en la creación de una lengua artificial artística y experimental (*artengelang*). 
+**Bangu** significa "idioma" en *Lojban* y es el hogar digital donde construyo, paso a paso y en **Typst**, la gramática de mi lengua artificial artística y experimental (*artengelang*). 
 
-## Hoja de Ruta
+---
 
-Para este proyecto sigo un modelo de **desarrollo iterativo e incremental**, la gramática se construye a través de **tres flujos de trabajo continuo que ocurren en paralelo** sobre los distintos capítulos y convergen en la publicación de una gramática en su versión final (`Release v1.0`). Durante el proceso habrá modificaciones drásticas sobre la marcha antes de alcanzar la madurez.
+## 🗺️ Hoja de Ruta
 
-### Flujos de trabajo (en paralelo)
+Este proyecto crece de forma **iterativa e incremental** mediante tres flujos de trabajo en paralelo que nos llevarán hasta la gran meta: la **`Release v1.0`**. ¡Habrá cambios radicales sobre la marcha mientras el idioma cobra vida!
 
-* **Investigación y documentación** 
-  * Recopilación de fuentes, análisis lingüístico, definición de reglas y búsqueda de ejemplos reales. 
-  * Creación del repositorio, estructura de carpetas y esquema general del índice en `main.typ`.
-  * Toma de notas, cración de reglas, bases de datos, hojas de cálculo y estructura general del idioma.
-  * Diseño de la plantilla en **Typst** (estilos, fuentes, macros para glosas interlineales y tablas).
+* 🔍 **Investigación y diseño:** Creación de reglas, bases de datos y plantillas en **Typst** (glosas, tablas y estilo).
+* ✍️ **Redacción de borradores:** Escritura y estructuración de los capítulos en `Grammar/`.
+* 👀 **Revisión y preimpresión:** Lectura crítica, validación de ejemplos y pulido de PDFs junto a la comunidad.
 
-* **Redacción de borradores** 
-  * Escritura, estructuración pedagógica y publicación preliminar de los capítulos en la caperta `Grammar/` en este repositorio. 
-  * Redacción formal de los capítulos a partir de los borradores y notas previas.
+---
+* 🚀 **Meta Final:** Edición definitiva lista para leer, imprimir y citar.
+---
 
-* **Revisión pública y preimpresión** 
-  * Manuscrito íntegro disponible de principio a fin en `.pdf` para que colegas, lingüistas o estudiantes revisen ejemplos y den retroalimentación sobre la claridad de las explicaciones. 
-  * Lectura crítica, validación de ejemplos, corrección de estilo y ajustes de maquetación basados en los comentarios de la comunidad. 
+## ✨ ¿Qué encontrarás aquí?
 
-### Hito de lanzamiento
-* **Edición Final:** Incorporación de las correcciones finales, maquetación definitiva y edición compilada en línea, lista para imprimir y citar. Consolidación de todos los capítulos revisados, cierre de edición y preparación del archivo maestro para distribución.
+* ⚡ **Desarrollo en vivo:** Avances casi diarios de lingüística y código.
+* 🧪 **Aprendizaje sobre la marcha:** Un espacio experimental sin horarios rígidos.
 
-## ¿Qué encontrarás aquí?
-* Un proceso de trabajo **abierto y en tiempo real**, con actualizaciones casi diarias tanto de contenido lingüístico como de diseño y código.
-* Un espacio de aprendizaje continuo donde la lingüística y la programación avanzan **sobre la marcha**, sin un cronograma rígido.
+---
 
-## Contenido del repositorio
+## 📂 Contenido del repositorio
 
 | Entidad | Descripción | Estado |
 | :--- | :--- | :--- |
-| `Grammar/` | Código fuente en **Typst** (`main.typ`) de la gramática. Se compilará a PDF en su versión final. | Desarrollo |
-| `index.html` | Sitio web donde subiré los capítulos en la medida que se vayan desarrollando. Allí se compilarán automáticamente los PDF's. | Publicado |
-| `docs` | Documentación del repositorio (README, Registro de cambios, Guía de Contribución) | Publicado |
+| `Grammar/` | Código fuente en **Typst** (`main.typ`) que dará vida al PDF final. | 🚧 Desarrollo |
+| `index.html` | Web donde se publican y compilan automáticamente los capítulos. | ✅ Publicado |
+| `docs` | Documentación general (`README`, Changelog y Guía de Contribución). | ✅ Publicado |
 
-## Licencia
-Este código se comparte de manera abierta y gratuita. Eres libre de copiarlo, adaptarlo y utilizarlo en tus propios proyectos sin restricciones, siempre y cuando respetes las licencias y derechos de autor de los componentes, recursos o librerías de terceros que formen parte del repositorio o que estén incluidos aquí.
+---
 
-## Guía de Contribución y Estados de los Capítulos
+## 🤝 ¡Únete y contribuye!
 
-¿Quieres ayudar a mejorar esta gramática o corregir alguna errata? ¡Las contribuciones son bienvenidas!
+¿Viste una errata o tienes una gran idea? ¡Toda ayuda es bienvenida! Revisa nuestra [Guía de Contribución](CONTRIBUTING.md) antes de empezar. Eres bienvenido a formar parte con tus ideas y sugerencias.
 
-Por favor, revisa nuestra [Guía de Contribución](CONTRIBUTING.md) antes de enviar cambios para conocer las reglas de estilo y el formato de los mensajes de commit. Cada sección o capítulo de la gramática avanza a su propio ritmo. 
-
-| Estado | Significado | ¿Cómo puedes ayudar hoy? |
+| Estado | ¿Qué significa? | ¿Cómo puedes ayudar hoy? |
 | :--- | :--- | :--- |
-| **Desarrollo** | Se están recopilando datos, bibliografía y ejemplos base. El texto está en plena redacción y sujeto a cambios estructurales grandes. | Sugiere fuentes bibliográficas, casos de uso difíciles o dudas frecuentes sobre el tema. Aporta ejemplos adicionales o señala si alguna explicación inicial resulta confusa. |
-| **Borrador** | El contenido del borrador está completo y en etapa de control de calidad previo a imprenta. | Reporta erratas, problemas de claridad, incoherencias entre capítulos o errores de formato. |
-| **Publicado** | El capítulo está aprobado y congelado para la versión final. | Solo se aceptan reportes de errores críticos de tipografía o formato. |
+| 🚧 **Desarrollo** | Texto en construcción y sujeto a grandes cambios. | Sugiere bibliografía, aporta ejemplos o señala dudas. |
+| 📝 **Borrador** | Contenido completo en revisión antes de imprenta. | Reporta erratas, incoherencias o fallos de formato. |
+| ✅ **Publicado** | Capítulo aprobado y congelado para la versión final. | Solo reportes de errores críticos de tipografía. |
 
-### Cómo enviar tus aportes
+### 🛠️ ¿Cómo enviar tus aportes?
+1. 💬 **Dudas o sugerencias:** Abre un [**Issue**](../../issues) poniendo el nombre del capítulo en el título.
+2. 🔧 **Correcciones directas:** Haz un *fork*, edita el archivo y lanza un **Pull Request** explicando tu cambio.
 
-1. **Para comentarios rápidos, dudas o sugerencias:** Abre un [**Issue**](../../issues) indicando el nombre del capítulo en el título. Todas las críticas, dudas y aportes son bienvenidos.
-2. **Para correcciones directas de texto o erratas:** Haz un *fork* del repositorio, edita el archivo correspondiente y envía un **Pull Request** explicando brevemente tu cambio.
+---
 
-## Enlaces directos
-- **Sitio web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
-- **Historial de avances:** Consulta los cambios, nuevas secciones agregadas y correcciones en el archivo [CHANGELOG.md](CHANGELOG.md).
+## 🔗 Enlaces rápidos
+* 🌐 **Web del proyecto:** [ricvento.github.io/bangu](https://github.io)
+* 📜 **Historial de cambios:** [CHANGELOG.md](CHANGELOG.md)
+
+## 📄 Licencia
+Código abierto y gratuito. Puedes copiarlo, adaptarlo y usarlo sin restricciones, respetando siempre las licencias de recursos o librerías de terceros incluidos.

@@ -27,6 +27,10 @@
             }
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         * {
             box-sizing: border-box;
             margin: 0;
@@ -78,7 +82,12 @@
         .subtitle {
             font-size: 1.15rem;
             color: var(--text-muted);
-			font-weight: 700;
+            font-weight: 700;
+        }
+
+        .nav-button-container {
+            text-align: center;
+            margin-bottom: 2rem;
         }
 
         .card {
@@ -105,8 +114,18 @@
             margin-bottom: 0;
         }
 
-        .txt-link {
-            color: var(--text-muted);
+        .pdf-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .pdf-list .btn {
+            width: 100%;
+            justify-content: flex-start;
         }
 
         .actions {
@@ -170,30 +189,50 @@
 
     <main>
         <header>
-            <span class="badge">En desarrollo</span>
+            <span class="badge">EN DESARROLLO</span>
             <h1>Bangu</h1>
-            <p class="subtitle">Proyecto de Conlang</p>
+            <p class="subtitle">Laboratorio de Conlang</p>
         </header>
+
+        <!-- Botón de acceso directo entre el header y la sección -->
+        <div class="nav-button-container">
+            <a href="#descarga-pdfs" class="btn btn-secondary">
+                <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path>
+                    <path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path>
+                </svg>
+                Ir a descargas de PDFs
+            </a>
+        </div>
 
         <section class="card">
             <h2>El punto de partida</h2>
-            <p><strong>Bangu</strong> es la palabra en Lojban que escogí para llamar mi <a href="https://github.com/ricVento/bangu" target="_blank" rel="noopener noreferrer" class="txt-link">repositorio</a> en GitHub; significa "lengua, idioma". Mi idioma aun no tiene nombre pero nace con el propósito de explorar una nueva forma de expresión y experimentar con sonidos insólitos y una sintaxis desafiantes.</p>
-			
-			<h2>Sin afán de ser universal</h2>
-            <p><strong>Bangu</strong> no es otra idea para una lengua auxiliar <em>(auxlang)</em>. Mi conlang es una lengua <em>a posteriori</em> basada en idiomas naturales, tan complicado e irregular como necesite serlo. No intenta convertirse en un vehículo para la comunicación internacional sino para satisfacer mi curiosidad y pasión por la lingüística.</p>
+            <p><strong>Bangu</strong> es la palabra en Lojban que elegí para mi repositorio y significa "lengua, idioma". Mi conlang aún no tiene nombre propio, pero nace con un objetivo claro: explorar nuevas formas de expresión y experimentar con sonidos insólitos y una sintaxis desafiante.</p>
+
+            <h2>Sin afán de ser universal</h2>
+            <p>Esto no es otra lengua auxiliar <em>(auxlang)</em>. Es un idioma <em>a posteriori</em> inspirado en lenguas naturales, tan complejo e irregular como necesite serlo. No busca servir para la comunicación internacional, sino alimentar mi curiosidad y pasión por la lingüística.
             
 			<h2>Influencias</h2>
-            <p>Esta es una iniciativa dedicada a dar vida a un idioma propio desde las bases que he adquirido; desde ahí me dejo llevar por la creatividad. Me inspiro en las macrofamilias de lenguas del Cáucaso, las familias Túrquicas y Urálicas, el Japonés y el Coreano.</p>
-            <p>Este proyecto se desarrolla de forma abierta y progresiva. Más allá de ser un simple ejercicio lingüístico, este espacio busca capturar una identidad propia, documentando el crecimiento natural de una nueva forma de expresión, evolucionando paso a paso a través de archivos, listas de vocabulario y textos de prueba.</p>
+            <p>Parto de mis bases lingüísticas para dejarme llevar por la creatividad, tomando inspiración de las macrofamilias del Cáucaso, las familias Túrquicas y Urálicas, el Japonés y el Coreano. Este espacio documenta el crecimiento abierto y progresivo de esta nueva lengua paso a paso, a través de archivos, listas de vocabulario y textos de prueba.</p>
             
 			<h2>Construyendo al revés</h2>            
-            <p>No sé cómo va a sonar aun, estoy trabajando de forma asincrónica. No sigo la secuencia tradicional de configurar una fonología y a partir de ella crear sílabas y palabras, o hacer una lista de raices y derivar el vocabulario. En su lugar estoy empezando desde la sintaxis y voy moldeando su constitución desde dentro hacia afuera. No tengo como prioridad un alfabeto ni una región geográfica para darle vida a un pueblo ficticio.</p>
+            <p>Aún no visualizo su apariencia final porque trabajo de forma asincrónica. En lugar de seguir la ruta tradicional (fonología → palabras → gramática), estoy moldeando el idioma desde dentro hacia afuera, empezando por la sintaxis y sin preocuparme todavía por un alfabeto o un mundo ficticio.</p>
 
-            <p>Me fascina la tipología por lo que este conlang no busca una estética particular sino un esqueleto bien definido. Sus huesos son la sintaxis, sus musculos son la mofología y su piel es la fonología. Así lo visualizo y de esa manera va surgiendo.</p>
+            <p>Me fascina la tipología, así que no busco una estética superficial, sino una estructura sólida: la sintaxis son sus huesos, la morfología sus músculos y la fonología su piel. Así es como lo imaginno y como irá cobrando vida.</p>
            
 			<h2>Sigue el desarrollo</h2>
-			<p>Pronto podrás ver en este espacio avances de los capítulos en PDF. Por ahora todos los archivos Typst están disponibles en mi repositorio de GitHub.</p>                      
-            <p>Si tienes curiosidad por ver cómo crece un idioma desde cero, aportar ideas o simplemente explorar los archivos actuales, puedes verlo todo en los enlaces al final.</p>
+			<p>Pronto publicaré aquí más avances de los capítulos en PDF. Mientras tanto, si tienes curiosidad por ver cómo nace un idioma desde cero o quieres aportar ideas, puedes explorar todo el código en Typst en los enlaces de abajo.</p>
+        </section>
+
+        <!-- Sección de lista de enlaces para descargar PDFs -->
+        <section id="descarga-pdfs" class="card">
+            <h2>Documentos Disponibles</h2>
+            <p>Puedes ver un ejemplo. Selecciona el archivo de la lista para descargarlo:</p>
+            <ul class="pdf-list">
+                <li>
+                    <a href="documento1.pdf" class="btn btn-secondary" download="Cap_3_Sustantivos.pdf">📊 Cap 3 – Sustantivos.pdf</a>			
+                </li>
+            </ul>
         </section>
 
         <div class="actions">
@@ -219,6 +258,20 @@
     <footer>
         <p>Creado por @ricVento • Alojado en GitHub</p>
     </footer>
-
+	
+	<script>
+	  document.addEventListener('DOMContentLoaded', () => {
+		const version = Date.now();
+		document.querySelectorAll('a[download]').forEach(enlace => {
+		  // Verifica que el enlace apunte a un archivo y no esté vacío
+		  if (enlace.href) {
+			const url = new URL(enlace.href);
+			url.searchParams.set('v', version);
+			enlace.href = url.toString();
+		  }
+		});
+	  });
+	</script>
+	
 </body>
 </html>

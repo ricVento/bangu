@@ -1,42 +1,50 @@
-# Guía de Contribución y Commits
+# 🤝 Guía de Contribución y Commits
 
-¡Gracias por contribuir a este proyecto de gramática! 
+¡Gracias por sumarte a dar vida a esta gramática! 🙌
 
-Para mantener un historial de cambios limpio y fácil de leer, utilizo una adaptación de **Conventional Commits** enfocada en la redacción y edición de textos.
+Para mantener un historial limpio y fácil de leer, usamos una adaptación de **Conventional Commits** pensada especialmente para escribir y editar textos lingüísticos.
 
-## Estructura de los mensajes
+---
 
-Cada commit sigue este formato:
+## ✍️ Estructura de los mensajes
+
+Todo commit debe seguir esta fórmula:
 
 ```text
 <tipo>(<alcance>): <descripción breve en imperativo>
 ```
-### Alcances sugeridos (Scopes)
-El `<alcance>` es opcional pero recomendable. Se usa el nombre del capítulo o el área lingüística entre paréntesis:
 
-* `ortografia`
-* `morfologia`
-* `sintaxis`
-* `verbos`
-* `puntuacion`
-* `glosario`
+### 🎯 Alcances sugeridos (Scopes)
+El `<alcance>` es opcional, pero ayuda mucho a ubicarnos. Usa el nombre del capítulo o área lingüística entre paréntesis:
 
-## Tipos de Commit
+* 🔤 `ortografia`
+* 🧩 `morfologia`
+* 🏗️ `sintaxis`
+* ⚡ `verbos`
+* ✒️ `puntuacion`
+* 📖 `glosario`
 
-| Tipo | Equivalencia en la Gramática | Cuándo usarlo |
+---
+
+## 🏷️ Tipos de Commit
+
+| Tipo | En el mundo de la gramática... | ¿Cuándo usarlo? |
 | :--- | :--- | :--- |
-| **`feat`** | **Nuevo contenido** | Al añadir un capítulo nuevo, una regla gramatical, una sección o listas de ejemplos inéditos. |
-| **`fix`** | **Corrección** | Al corregir erratas, faltas de ortografía, definiciones imprecisas o ejemplos incorrectos. |
-| **`style`** | **Formato y diseño** | Al ajustar negritas, cursivas, tablas, saltos de línea o maquetación sin alterar el texto. |
-| **`refactor`** | **Reestructuración** | Al reescribir explicaciones para darles mayor claridad o mover secciones sin añadir teoría nueva. |
-| **`docs`** | **Documentación interna** | Al actualizar el `README.md`, este archivo (`CONTRIBUTING.md`) o notas internas del proyecto. |
-| **`chore`** | **Mantenimiento** | Al hacer ajustes técnicos en el repositorio, carpetas, plantillas o configuraciones generales. |
+| ✨ **`feat`** | **Nuevo contenido** | Añades un capítulo, regla gramatical, sección o ejemplos nuevos. |
+| 🐛 **`fix`** | **Corrección** | Arreglas erratas, faltas de ortografía o ejemplos incorrectos. |
+| ♻️ **`refactor`** | **Formato y diseño** | Reescribes para dar claridad o mueves secciones, ajusta formato y estilos. |
+| 📝 **`docs`** | **Documentación** | Actualizas el `README.md`, esta guía o notas internas. |
+| 🔧 **`chore`** | **Mantenimiento** | Haces ajustes técnicos en carpetas, plantillas o configuraciones. |
 
-Usualmente hago un commit al final del día; si realicé cambios en más de un área sigo una jerarquía:
+### 👑 Regla de jerarquía
+Si haces un commit diario con cambios en varias áreas a la vez, elige el tipo principal siguiendo este orden de prioridad:
+
 ```text
-feat > fix > refactor > style > docs > chore
+feat > fix > refactor > docs > chore
 ```
 
-## Enlaces directos
-- **Sitio web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
-- **Historial de avances:** Consulta los cambios, nuevas secciones agregadas y correcciones en el archivo [CHANGELOG.md](CHANGELOG.md).
+---
+
+## 🔗 Enlaces rápidos
+* 🌐 **Web del proyecto:** [ricvento.github.io/bangu](https://github.io)
+* 📜 **Historial de cambios:** [CHANGELOG.md](CHANGELOG.md)
