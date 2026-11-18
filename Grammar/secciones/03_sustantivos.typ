@@ -24,6 +24,21 @@ Existen ocho casos gramaticales, la base es el absolutivo, con él se forma tamb
 
 Con el genitivo se construyen el ergativo, partitivo, dativo, instrumental y adverbial en ambos números. El plural de absolutivo y vocativo tiene una raiz específica.
 
+==== Absolutivo
+El absolutivo es el caso no marcado.
+1. Indica el sujeto de un verbo intransitivo.
+ #example[
+  - pajaro salir
+  - pajaro salir
+  'los pajaros se fueron'
+ ]
+ 
+2. Paciente, Tema u Objeto de un verbo transitivo.
+3. Estímulo de un verbo afectivo.
+4. Sujeto y predicado nominal de la cópula.
+5. Instrumento en los predicados de contacto.
+6. Cumple funciones de Vocativo en los sustantivos que carecen de este caso.
+
 === Casos Espaciales
 Los casos espaciales tienen dos dimensiones en el espacio: una dimension de orientación y otra de dirección. 
 
@@ -45,5 +60,22 @@ Hay seis direcciones; indica específicamente si el objeto está en movimiento y
 - Terminativo #_term: movimiento hasta un destino final, punto de llegada, télico, finalidad. 
 
 La unión de orientaciones y direcciones da lugar a los 42 casos espaciales del #_x.
+
+#figure(
+   caption: [Casos Espaciales], 
+   kind: table, 
+   block(
+      width: 100%)[
+      #table(
+         columns: (1fr, ) * 7, 
+         align: (left,) * 7, 
+         stroke: none, table.hline(y: 0, stroke: 1pt + black), 
+         table.cell(rowspan:2, align: left + horizon)[*Dirección*],table.cell(colspan:6, align: center)[*Orientación*], 
+         table.hline(y: 2, stroke: 0.5pt + gray),
+		 [Esivo], [Lativo], [Versativo], [Elativo], [Translativo], [Terminativo], [IN], [inesivo \ _(simul)_], [ilativo], [invers], [inelat], [intransl], [interm], [AD], [adesivo], [allativo], [advers], [adelat \ _(abl)_], [adtransl], [adterm], [APUD], [apudesivo], [apudlat], [apudvers], [apudelat], [apudtransl], [apudterm], [SUB], [subesivo], [sublat], [subvers], [subelat], [subtransl], [subterm], [SUPER], [superesivo], [superlat], [supervers], [superelat], [supertransl], [superterm], [ANTE], [antesivo], [antelat], [antevers], [antelat], [antetransl], [anteterm], [POST], [postesivo], [postlat], [postvers], [postelat], [postransl], [posterm], 
+         table.hline(y: 9, stroke: 1pt + black),
+      )
+   ]
+)<tab-casos-espaciales>
 
 #asterismo

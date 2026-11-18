@@ -11,11 +11,25 @@ Este proyecto contiene la descripción gramatical de la lengua objeto de estudio
 
 La referencia al capítulo @generosyclases[§]
 
-Una tabla generada por Calc
+Una tabla generada automaticamente por `Calc`
 
-#figure(caption: [Título de mi Tabla],kind: table, block(width: 90%)[#table(columns: (1fr, 2fr, 2fr, 1fr), align: (left, center, center, right), stroke: none, table.hline(y: 0, stroke: 1pt + black),[x],[x],[x],[x],table.hline(y: 1, stroke: 0.5pt + gray),[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],table.hline(y: 8, stroke: 1pt + black),)])<referencia>
+#figure(
+   caption: [Tabla de Pruebas], 
+   kind: table, 
+   block(width: 90%)[
+      #table(
+         columns: (1fr, ) * 6, 
+         align: (left, ) * 6, 
+         stroke: none, 
+         table.hline(y: 0, stroke: 1pt + black), 
+         [x],[x],[x],[x],[x],[x],
+         table.hline(y: 1, stroke: 0.5pt + gray),           [x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],
+         table.hline(y: 8, stroke: 1pt + black), 
+      )
+   ]
+)<tab-tabla-de-pruebas>
 
-Con su referencia a la... @referencia.
+Con su referencia a la... @tab-tabla-de-pruebas.
 
 == Metodología
 Los datos fueron recolectados mediante sesiones de elicitación directa. 
@@ -153,23 +167,82 @@ Este ejemplo no lo entiendo bien...
 ]
 
 == Paradigmas de Declinación Nominal
-A continuación, se presenta la declinación de los sustantivos de la primera clase para el tema en _–a_:
+A continuación, se presenta la declinación de los sustantivos de la primera clase para el tema en _–a_. Tabla al 90%
 
-#figure(caption: [Primera Declinación del Latín], kind: table, block(width: 90%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],[rosa],[rosae],[Acc],[rosam],[rosas],[Gen],[rosae],[rosarum],[Dat],[rosae],[rosis],[Abl],[rosa],[rosis], table.hline(y: 6, stroke: 1pt + black),)])<lat-1st>
+#figure(
+   caption: [Primera Declinación del Latín], 
+   kind: table, 
+   block(width: 90%)[
+      #table(
+         columns: (1fr, 2fr, 2fr), 
+         align: (left, auto, auto), 
+         stroke: none, 
+         table.hline(y: 0, stroke: 1pt + black), 
+         [Caso],[Sg],[Pl], 
+         table.hline(y: 1, stroke: 0.5pt + gray),           [Nom],[rosa],[rosae],[Acc],[rosam],[rosas],[Gen],[rosae],[rosarum],[Dat],[rosae],[rosis],[Abl],[rosa],[rosis], 
+         table.hline(y: 6, stroke: 1pt + black), 
+      )
+   ]
+)<lat-1st>
 
 Fijate como hago ref a @lat-1st
 
 == Paradigma del Sustantivo (Estrecho)
+UNa tabla estrecha al 50%
 
-#figure(caption: [Segunda Declinación del Latín], kind: table, block(width: 50%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],[amicus],[amici],[Acc],[amicum],[amicos],[Gen],[amici],[amicorum],[Dat],[amico],[amicis],[Abl],[amico],[amicis], table.hline(y: 6, stroke: 1pt + black),)])<lat-2st>
+#figure(
+   caption: [Segunda Declinación del Latín], 
+   kind: table, 
+   block(width: 50%)[
+      #table(
+         columns: (1fr, 2fr, 2fr), 
+         align: (left, auto, auto), 
+         stroke: none, 
+         table.hline(y: 0, stroke: 1pt + black), 
+         [Caso],[Sg],[Pl], 
+         table.hline(y: 1, stroke: 0.5pt + gray),           [Nom],[amicus],[amici],[Acc],[amicum],[amicos],[Gen],[amici],[amicorum],[Dat],[amico],[amicis],[Abl],[amico],[amicis],
+         table.hline(y: 6, stroke: 1pt + black), 
+      )
+   ]
+)<lat-2nd>
+
 
 == Tabla con combinacion de celdas
 
-#figure(caption: [Segunda Declinación del Latín], kind: table, block(width: 50%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],[amicus],[amici],[Acc],[amicum],[amicos],[Gen],[amici],[amicorum],[Dat],table.cell(rowspan: 2, align: center + horizon)[amico],table.cell(rowspan: 2, align: center + horizon)[amicis],[Abl], table.hline(y: 6, stroke: 1pt + black),)])<lat-2st>
+#figure(
+   caption: [Segunda Declinación del Latín], 
+   kind: table, 
+   block(width: 50%)[
+      #table(
+         columns: (1fr, 2fr, 2fr), 
+         align: (left, auto, auto), 
+         stroke: none, 
+         table.hline(y: 0, stroke: 1pt + black), 
+         [Caso],[Sg],[Pl], 
+         table.hline(y: 1, stroke: 0.5pt + gray),           [Nom],[amicus],[amici],[Acc],[amicum],[amicos],[Gen],[amici],[amicorum],[Dat],table.cell(rowspan: 2, align: center + horizon)[amico],table.cell(rowspan: 2, align: center + horizon)[amicis],[Abl],
+         table.hline(y: 6, stroke: 1pt + black), 
+      )
+   ]
+)<lat-2nd-strch>
 
 A continuación un caso extremo que mezcla columnas y filas.
 
-#figure(caption: [Quinta Declinación del Latín], kind: table, block(width: 50%)[#table(columns: (1fr, 2fr, 2fr), align: (left, auto, auto), stroke: none, table.hline(y: 0, stroke: 1pt + black), [Caso],[Sg],[Pl], table.hline(y: 1, stroke: 0.5pt + gray), [Nom],table.cell(colspan: 2, align: center)[res],[Acc],[rem],[res],[Gen],table.cell(rowspan: 2, align: center + horizon)[rei],[rerum],[Dat],table.cell(rowspan: 2, align: center + horizon)[rebus],[Abl],[re], table.hline(y: 6, stroke: 1pt + black),)])<lat-5st>
+#figure(
+   caption: [Quinta Declinación del Latín], 
+   kind: table, 
+   block(width: 50%)[
+      #table(
+         columns: (1fr, 2fr, 2fr), 
+         align: (left, auto, auto), 
+         stroke: none, 
+         table.hline(y: 0, stroke: 1pt + black), 
+         [Caso],[Sg],[Pl], 
+         table.hline(y: 1, stroke: 0.5pt + gray),
+		 [Nom],table.cell(colspan: 2, align: center)[res],[Acc],[rem],[res],[Gen],table.cell(rowspan: 2, align: center + horizon)[rei],[rerum],[Dat],table.cell(rowspan: 2, align: center + horizon)[rebus],[Abl],[re],
+         table.hline(y: 6, stroke: 1pt + black), 
+      )
+   ]
+)<lat-5th>
 
 == Un ejemplo de glosa largo
 Este es un ejemplo mas largo
@@ -420,3 +493,20 @@ En el sistema verbal finito, cada oración en tiempo pasado exige marcar obligat
 2. Evidencia indirecta (No atestiguada): Marcada en formas simples con el sufijo _-un_.
 3. Inferencial: Expresada mediante la construcción resultativa o la combinación de converbos con el verbo auxiliar _-us-_ ("encontrar").
 4. Reportativa / Citativa: Formada mediante la partícula citativa λin / λɨn (proveniente del converbo "habiendo dicho") adjunta al final de la cláusula.
+
+#figure(
+   caption: [Otra Tabla de Prueba], 
+   kind: table, 
+   block(width: 90%)[
+      #table(
+         columns: (1fr, ) * 4, 
+         align: (left, ) * 4, 
+         stroke: none, 
+         table.hline(y: 0, stroke: 1pt + black), 
+         [x],[x],[x],[x],
+         table.hline(y: 1, stroke: 0.5pt + gray), 
+         [x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],[x],
+         table.hline(y: 4, stroke: 1pt + black), 
+      )
+   ]
+)<tab-otra-tabla-de-prueba>

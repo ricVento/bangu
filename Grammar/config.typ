@@ -62,77 +62,113 @@
 #let hb() = hide[\[]
 
 #let asterismo = {
-  v(1em)
-  align(center)[\* \* \*]
-  v(1em)
+	v(1em)
+	align(center)[\* \* \*]
+	v(1em)
 }
 
 // Configuración estética de la gramática
 #let configuracion_gramatica(doc) = {
-  set page(
-    paper: "a4",
-    margin: (x: 3cm, y: 4cm),
-  )
-  
-  set text(
-    font: "Charis",
-	size: 11pt,
-    lang: "es"
-  )
-  
-  set heading(numbering: "1.1")
-  
-  show heading.where(level: 1): it => block(
-    above: 2.5em,
-    below: 1.2em,
-    text(size: 20pt, weight: "bold", it)
-  )
-  
-  show heading.where(level: 2): it => block(
-    above: 2em,
-    below: 1em,
-    text(size: 16pt, weight: "bold", it)
-  )  
+	
+	// FORMATO PAGINA
+	set page(
+		paper: "a4",
+		margin: (x: 3cm, y: 4cm),
+	)
+	
+	// FORMATO TEXTO	
+	set text(
+		font: "Charis",
+		size: 11pt,
+		lang: "es"
+	)
+	
+	// FORMATO NUMERACION DE SECCION		
+	set heading(numbering: "1.1")
+	
+	show heading.where(level: 1): it => block(
+		above: 2.5em,
+		below: 1.2em,
+		text(
+			size: 20pt, 
+			weight: "bold", 
+			it
+		)
+	)
+	
+	show heading.where(level: 2): it => block(
+		above: 2em,
+		below: 1em,
+		text(
+			size: 16pt, 
+			weight: "bold", 
+			it
+		)
+	)	
 
-  show heading.where(level: 3): it => block(
-    above: 2em,
-    below: 1em,
-    text(size: 12pt, weight: "bold", it)
-  )  
+	show heading.where(level: 3): it => block(
+		above: 2em,
+		below: 1em,
+		text(
+			size: 12pt, 
+			weight: "bold", 
+			it
+		)
+	)	
 
-  show heading.where(level: 4): it => block(
-    above: 1.5em,
-    below: 1em,
-    text(style: "italic", weight: "bold", it)
-  ) 
-  
-  set enum(indent: 10pt, full: true)
-  
-  // AGREGA PADDING A LAS TABLAS
-  show figure.where(kind: table): set block(above: 20pt, below: 20pt)
+	show heading.where(level: 4): it => block(
+		above: 1.5em,
+		below: 1em,
+		text(
+			style: "italic", 
+			weight: "bold", 
+			it
+		)
+	)
+	
+	
+	// PONE NUMERACION A LAS TABLAS	
+	show heading.where(level: 1): it => {
+		counter(figure.where(kind: table)).update(0)
+		it
+	}
+	
+	set enum(indent: 10pt, full: true)
+	
+	// AGREGA PADDING A LAS TABLAS
+	show figure.where(kind: table): set block(above: 20pt, below: 20pt)
 
-  // PONE TITULOS DE TABLAS ARRIBA-IZQUIERDA
-  set figure.caption(position: top)
-  show figure.caption: set align(left)
-  
-  // TRANSFORMA EN VERSALITAS SI PRECEDE 0
-  show regex("\b0(\w+)\b"): coincidencia => {
-    let texto = coincidencia.text
-    let texto-limpio = texto.slice(1) 
-    smallcaps(all: true)[#texto-limpio]
-  }
-  
-  // INSERTA § EN REFERENCIA CRUZADA
-  show ref: it => {
-    let el = it.element
-    if el != none and el.func() == heading {
-      [§#counter(heading).at(el.location()).first()]
-    } else {
-      it
-    }
-  }  
+	// REINICIA NUMERADOR DE TABLA EN CADA SECCION
+	set figure(numbering: n => {
+		let seccion = counter(heading).get().first()
+		numbering("1.1", seccion, n)
+	})
+	
+	// PONE TITULOS DE TABLAS ARRIBA-IZQUIERDA
+	set figure.caption(position: top)
+		show figure.caption: it => {
+		set align(left)
+		strong(it)
+	}
+	
+	// TRANSFORMA EN VERSALITAS SI PRECEDE 0
+	show regex("\b0(\w+)\b"): coincidencia => {
+		let texto = coincidencia.text
+		let texto-limpio = texto.slice(1) 
+		smallcaps(all: true)[#texto-limpio]
+	}
+	
+	// INSERTA § EN REFERENCIA CRUZADA
+	show ref: it => {
+		let el = it.element
+		if el != none and el.func() == heading {
+			[§#counter(heading).at(el.location()).first()]
+		} else {
+			it
+		}
+	}	
 
-  show:eggs.with()
-  
-  doc
+	show:eggs.with()
+	
+	doc
 }
