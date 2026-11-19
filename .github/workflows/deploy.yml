@@ -34,6 +34,7 @@ jobs:
         run: |
           # typst compile --root Grammar Grammar/main.typ _site/pdfs/grammar.pdf
           typst compile --root Grammar Grammar/secciones/03_sustantivos.typ _site/pdfs/03_sustantivos.pdf
+          typst compile --root Grammar Grammar/secciones/06_verbos.typ _site/pdfs/06_verbos.pdf
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
