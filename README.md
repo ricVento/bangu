@@ -5,13 +5,13 @@
 ### ✨ ¿Qué encontrarás aquí?
 
 * ⚡ **Desarrollo en vivo:** Avances diarios sobre lingüística y continua actualización de código.
-* 🧪 **Aprendizaje sobre la marcha:** Es es mi espacio experimental sin horarios ni calendarios rígidos.
+* 🧪 **Aprendizaje sobre la marcha:** Este es un espacio para mis experimentos sin horarios ni calendarios rígidos.
 
 ---
 
 ## 🗺️ Hoja de Ruta
 
-Este proyecto crece de forma **iterativa e incremental** mediante tres flujos de trabajo simultáneos que conducen hasta la meta definitiva: la **`Release v1.0`**. 
+El proyecto crece de forma **iterativa e incremental** mediante tres flujos de trabajo simultáneos que conducen hasta la meta definitiva: la **`Release v1.0`**. 
 
 **¡Advertencia!** Habrá cambios radicales sobre la marcha mientras el idioma cobra vida. Los **tres flujos de trabajo** son:
 
