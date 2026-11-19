@@ -9,7 +9,7 @@ Este proyecto contiene la descripción gramatical de la lengua objeto de estudio
   con márgenes hacia adentro, ideal para textos de más de tres líneas.
 ]
 
-La referencia al capítulo @generosyclases[§]
+La referencia al capítulo @generosyclases[§] y una referencia a la bibliografia @kryref, @kry2ref, @kry3ref, @kry4ref, @khwref, @hdmref, @udiref, @aecref, @cheref y @che2ref, @sanref y @icaref, @tabref, @akhref, @tseref, @abkref, @abk2ref, @avaref, @ingref, @lezref, @kabref y @kab2ref, @japref y @jap2ref, @ncdref, @gncref, @optref, @zskref, @korref, @kor2ref, @kor3ref, @kor4ref, @kor5ref, @turref, @tur2ref, @tur3ref, @tur4ref, @tur5ref.
 
 Una tabla generada automaticamente por `Calc`
 

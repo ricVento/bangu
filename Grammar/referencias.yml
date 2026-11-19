@@ -1,0 +1,246 @@
+kryref:
+  type: book
+  title: Grammaire Kryz, langue caucasique d’Azerbaïdjan, dialecte d’Alik
+  author: Authier, Gilles
+  date: 2009
+  
+kry2ref:
+  type: book
+  title: Actance et Changements de Valence en Kryz
+  author: Authier, Gilles
+  date: 2007 
+
+kry3ref:
+  type: book
+  title: Split Ergativity on Kryz Pronouns
+  author: Authier, Gilles
+  date: 2006
+
+kry4ref:
+  type: book
+  title: The Detransitive Voice in Kryz
+  author: Authier, Gilles
+  date: 2009
+
+khwref:
+  type: book
+  title: A Grammar of Khwarshi
+  author: Khalilova, Zaira
+  date: 2009
+  
+udiref:
+  type: book
+  title: A Functional Grammar of Udi
+  author: Schulze, Wolfgang
+  date: 2006
+
+aecref:
+  type: book
+  title: Grundlagen des Akkusativ-Ergativ-Kontinuums
+  author: Schulze, Wolfgang
+  date: 2009  
+
+tabref:
+  type: book
+  title: Standard Tabasaran Short Grammar Sketch
+  author: Babaliyeva, Ayten
+  date: 2023
+  
+sanref:
+  type: book
+  title: A Grammar of Sanzhi Dargwa
+  author: Forker, Diana
+  date: 2020
+  
+icaref:
+  type: book
+  title: A Grammar of Icari Dargwa
+  author: 
+   - Sumbatova, Nina
+   - Mutalov, Rasul
+  date: 2003   
+  
+avaref:
+  type: book
+  title: Grammaire de la langue Avar
+  author: Charachidzé, Georges
+  date: 1981
+
+akhref:
+  type: book
+  title: Intensifiers, Reflexivity and Logophoricity in Axaxdərə Akhvakh
+  author: Creissels, Danis
+  date: 2007
+
+tseref:
+  type: book
+  title: Long-Distance Agreement in Tsez A Reappraisal
+  author: Chandra, Pritha
+  date: 2007
+  
+hdmref:
+  type: book
+  title: Head-marking and dependent-marking grammar
+  author: Nichols, Johanna 
+  date: 1986
+  
+cheref:
+  type: book
+  title: Chechen
+  author: Nichols, Johanna 
+  date: 1989  
+  
+che2ref:
+  type: book
+  title: Chechen-English and English-Chechen Dictionary
+  author: 
+   - Nichols, Johanna
+   - Vagapov, Arbi
+  date: 2004  
+  
+ingref:
+  type: book
+  title: Ingush Grammar
+  author: Nichols, Johanna 
+  date: 2011
+  
+lezref:
+  type: book
+  title: A Grammar of Lezgian
+  author: Haspelmath, Martin
+  date: 2011 
+
+kabref:
+  type: book
+  title: A Grammar of the Kabardian Language
+  author: Colarusso, John
+  date: 1992
+
+kab2ref:
+  type: book
+  title: A Short Grammar of East Circassian (Kabardian)
+  author: Matasović, Ranko
+  date: 2010    
+
+abkref:
+  type: book
+  title: Abkhaz
+  author: Hewitt, Brian George
+  date: 1979 
+
+abk2ref:
+  type: book
+  title: Abkhaz
+  author: Chirikba, Viacheslav
+  date: 2003 
+
+japref:
+  type: book
+  title: An Introduction to Japanese Syntax, Grammar & Language
+  author: Kamermans, Michiel
+  date: 2010    
+
+jap2ref:
+  type: book
+  title: Japanese Grammar Guide
+  author: Tae, Kim
+  date: 2012
+  
+zskref:
+  type: book
+  title: Zur Sprachgeschichte des Kaukasus
+  author: Schulze, Wolfgang
+  date: 2007  
+
+optref:
+  type: book
+  title: Optative Domain in Dagestanian
+  author: Dobrushina, Nina
+  date: 2009
+
+gncref:
+  type: book
+  title: Grammaticalization in the North Caucasian Languages
+  author: 
+   - Arkadiev, Peter
+   - Maisak, Timur
+  date: 2016  
+
+ncdref:
+  type: book
+  title: A North Caucasian Etymological Dictionary
+  author:
+   - Starostin, Sergei
+   - Nikolayev, Sergei
+  date: 1994
+
+korref:
+  type: book
+  title: Korean A Comprehensive Grammar
+  author:
+   - Yeon, Jaehoon
+   - Brown, Lucien
+  date: 2011
+
+kor2ref:
+  type: book
+  title: Elementary Korean
+  author:
+   - Yeon, Jaehoon
+   - King, Ross
+  date: 2000
+
+kor3ref:
+  type: book
+  title: Korean Grammar in Use, Beginning (to Early Intermediate)
+  author: 
+   - Ahn, Jeanmyung
+   - Lee Kyungah
+   - Han Hooyoung
+  date: 2010
+
+kor4ref:
+  type: book
+  title: Korean Grammar in Use, Intermediate
+  author: 
+   - Min, Jinyoung
+   - Ahn, Jeanmyung
+  date: 2011
+  
+kor5ref:
+  type: book
+  title: Korean Grammar in Use, Advanced
+  author: Ahn, Jeanmyung
+  date: 2013
+
+turref:
+  type: book
+  title: Turkish A Comprehensive Grammar
+  author:
+   - Göksel, Aslı
+   - Kerslake, Celia
+  date: 2005
+
+tur2ref:
+  type: book
+  title: A Student Grammar of Turkish
+  author: Ketrez, Nihan
+  date: 2012
+
+tur3ref:
+  type: book
+  title: Turkish Grammar
+  author: Göknel, Yüksel
+  date: 2012
+
+tur4ref:
+  type: book
+  title: Elementary Turkish
+  author: Thomas, Lewis
+  date: 1967
+
+tur5ref:
+  type: book
+  title: Turkish Grammar
+  author: Pierce, David
+  date: 2005

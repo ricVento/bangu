@@ -80,7 +80,8 @@
 	set text(
 		font: "Charis",
 		size: 11pt,
-		lang: "es"
+		lang: "es",
+		region: "ES"
 	)
 	
 	// FORMATO NUMERACION DE SECCION		
@@ -126,6 +127,8 @@
 		)
 	)
 	
+	// BIBLIOGRAFIA
+	set bibliography(style: "apa")
 	
 	// PONE NUMERACION A LAS TABLAS	
 	show heading.where(level: 1): it => {

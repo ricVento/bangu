@@ -149,3 +149,7 @@
 ]
 
 #include "secciones/features.typ"
+
+#pagebreak()
+
+#bibliography("referencias.yml", title: "Referencias")
