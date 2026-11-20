@@ -252,13 +252,7 @@ Este es un ejemplo mas largo
  'este es un ejemplo más largo donde las palabras sencillamente se tienen que cortar y seguir en una linea diferente porque no alcanza la página'
 ]
 
-== Lista de Abreviaturas
-Se deben declarar en config.typ; se pueden crear nuevas como variables.
-#columns(2, gutter: 1.5em)[
-  #print-abbreviations()
-]
-
-#pagebreak()
+#asterismo
 
 = Gramatica Breve de Khwarshi
 

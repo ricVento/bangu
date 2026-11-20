@@ -72,7 +72,7 @@
 
 #pagebreak()
 
-// SECCIONES SIN NUMERO EN INDICE
+// SECCIONES INICIALES SIN NUMERO EN INDICE
 #{
   set heading(numbering: none)
   
@@ -97,7 +97,7 @@
   ]
 ]
 
-#include "secciones/01_intro.typ"
+#include "secciones/introduccion.typ"
 
 #page(numbering: none, header: none)[
   #align(center)[
@@ -108,7 +108,7 @@
   ]
 ]
 
-#include "secciones/02_fonologia.typ"
+#include "secciones/fonologia.typ"
 #pagebreak()
 
 #page(numbering: none, header: none)[
@@ -120,13 +120,27 @@
   ]
 ]
 
-#include "secciones/03_sustantivos.typ"
+#include "secciones/sustantivos.typ"
 #pagebreak()
 
-#include "secciones/04_adjetivos.typ"
+#include "secciones/adjetivos.typ"
 #pagebreak()
 
-#include "secciones/05_pronombres.typ"
+#include "secciones/pronombres.typ"
+#pagebreak()
+
+#include "secciones/numerales.typ"
+#pagebreak()
+
+#include "secciones/adverbios.typ"
+#pagebreak()
+
+#include "secciones/postposiciones.typ"
+#pagebreak()
+
+#include "secciones/particulas.typ"
+
+// sin pagebreak porque sigue #page
 
 #page(numbering: none, header: none)[
   #align(center)[
@@ -137,7 +151,12 @@
   ]
 ]
 
-#include "secciones/06_verbos.typ"
+#include "secciones/verbos.typ"
+#pagebreak()
+
+#include "secciones/copula.typ"
+
+// sin pagebreak porque sigue #page
 
 #page(numbering: none, header: none)[
   #align(center)[
@@ -148,8 +167,35 @@
   ]
 ]
 
-#include "secciones/features.typ"
+#include "secciones/sintagma_nominal.typ"
 
+// sin pagebreak porque sigue #page
+
+#page(numbering: none, header: none)[
+  #align(center)[
+    #v(5cm)
+	#text(size: 26pt, weight: "bold")[Parte VI] \
+    #v(0.5cm)
+    #text(size: 24pt, style: "italic")[Anexos]
+  ]
+]
+
+#include "secciones/features.typ"
 #pagebreak()
 
-#bibliography("referencias.yml", title: [Referencias], full: true)
+// SECCIONES FINALES SIN NUMERO EN INDICE
+#{
+  set heading(numbering: none)
+  
+  include "secciones/abreviaturas.typ"
+  pagebreak()
+  
+  include "secciones/lista_verbos.typ"
+  pagebreak()
+  
+  include "secciones/narracion.typ"
+  pagebreak()  
+
+  bibliography("referencias.yml", title: [Referencias], full: true)
+
+}
