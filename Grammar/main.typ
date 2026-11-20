@@ -152,4 +152,4 @@
 
 #pagebreak()
 
-#bibliography("referencias.yml", title: "Referencias")
+#bibliography("referencias.yml", title: [Referencias], full: true)

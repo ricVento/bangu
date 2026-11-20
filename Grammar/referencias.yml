@@ -244,3 +244,247 @@ tur5ref:
   title: Turkish Grammar
   author: Pierce, David
   date: 2005
+  
+eviref:
+  type: book
+  title: Evidentiality
+  author: Aikhenvald, Alexandra
+  date: 2004
+  
+lutref:
+  type: book
+  title: Language universals and linguistic typology
+  author: Comrie, Bernard
+  date: 1989
+
+scdref:
+  type: book
+  title: Spatial cases in Daghestanian languages
+  author: Comrie, Bernard
+  date: 1999
+
+eskref:
+  type: book
+  title: Einführung in das Studium der kaukasischen Sprachen 
+  author: Dirr, Adolf
+  date: 1928  
+  
+ergref:
+  type: book
+  title: Ergativity
+  author: Dixon, Robert
+  date: 1998
+
+sksref:
+  type: book
+  title: Die Sprachen des kaukasischen Stammes 
+  author: Erkert, Roderich von
+  date: 1985
+
+ecnref:
+  type: book
+  title: Experiencer coding in Nakh-Daghestanian 
+  author: Ganenkov, Dmitry
+  date: 2007
+
+pauref:
+  type: book
+  title: On the Distribution of Passive and Antipassive Constructions in Universal Grammar
+  author: Van Valin, Robert
+  date: 1980
+  
+ecfref:
+  type: book
+  title: The East Caucasian Language Family
+  author: Van den Berg, Helma 
+  date: 2005
+
+wouref:
+  type: book
+  title: Word Order Universals
+  author: Hawkins, John A
+  date: 1983
+
+nparef:
+  type: book
+  title: Noun Phrase Accessibility and Universal Grammar
+  author: 
+   - Keenan, Edward
+   - Comrie, Bernard
+  date: 1977
+
+ldkref:
+  type: book
+  title: Long-distance Agreement in Khwarshi
+  author: Khalilova, Zaira 
+  date: 2007  
+  
+ccaref:
+  type: book
+  title: Constructions with Clause Actants in Daghestanian Languages
+  author: Kibrik, Aleksandr
+  date: 1987
+
+tctref:
+  type: book
+  title: Beyond Subject and Object. Toward a Comprehensive Clause Patterning Yypology
+  author: Kibrik, Aleksandr
+  date: 1997
+
+ldtref:
+  type: book
+  title: Long-distance Agreement and Topic in Tsez
+  author: 
+   - Polinsky, Maria
+   - Eric Potsdam
+  date: 2001
+
+gccreg:
+  type: book
+  title: The Grammar of Causative Constructions
+  author: Shibatani, Masayoshi
+  date: 1976 
+
+umoref:
+  type: book
+  title: Understanding Morphology
+  author: Haspelmath, Martin
+  date: 2002
+
+cclref:
+  type: book
+  title: Concessive Conditionals in the Languages of Europe
+  author: Haspelmath, Martin
+  date: 1998
+
+elsref:
+  type: book
+  title: Evidentiality, Logophoricity and the Syntactic Representation of Pragmatic Features
+  author: Speas, Margaret  
+  date: 2004  
+  
+usyref:
+  type: book
+  title: Understanding Syntax 
+  author: Tallerman, Maggie
+  date: 1998
+
+rdiref:
+  type: book
+  title: Reported Discourse
+  author: 
+   - Güldemann, Tom
+   - Roncador, Manfred von
+  date: 2002
+
+hptref:
+  type: book
+  title: A Handbook of Phonological Theory 
+  author: Goldsmith, John
+  date: 1995
+
+dnmref:
+  type: book
+  title: Distributive Numerals
+  author: Gil, David
+  date: 2003
+  
+disref:
+  type: book
+  title: Direct and Indirect Speech
+  author: Coulmas, Florian  
+  date: 1986
+
+agrref:
+  type: book
+  title: Agreement
+  author: Corbett, Greville  
+  date: 2006
+
+totref:
+  type: book
+  title: Types of Typology, Illustrated from Gender Systems
+  author: Corbett, Greville  
+  date: 2003
+
+catref:
+  type: book
+  title: Causativity and Transitivity
+  author: 
+   - Comrie, Bernard
+   - Polinsky, Maria   
+  date: 1993
+
+tmdref:
+  type: book
+  title: Transitivity Pairs, Markedness and Diachronic Stability
+  author: Comrie, Bernard  
+  date: 2006
+
+itcref:
+  type: book
+  title: Introduction to Caucasian
+  author: Comrie, Bernard  
+  date: 2005
+
+obtref:
+  type: book
+  title: Oblique-case Subjects in Tsez
+  author: Comrie, Bernard  
+  date: 2004
+
+sccref:
+  type: book
+  title: Syntax of Causative Constructions. Cross-language Similarities and Divergences 
+  author: Comrie, Bernard
+  date: 1976
+
+aspref:
+  type: book
+  title: Aspect
+  author: Comrie, Bernard
+  date: 1976
+  
+vtyref:
+  type: book
+  title: Voice Typology
+  author: Kulikov, Leonid
+  date: 2007
+  
+cttref:
+  type: book
+  title: Case Typology and Case Theory
+  author: Falk, Yehuda
+  date: 1998
+  
+cltref:
+  type: book
+  title: Clause Types
+  author: Dryer, Matthew
+  date: 2006
+
+sxnref:
+  type: book
+  title: Suffixaufnahme
+  author: Kracht, Markus
+  date: 2003
+
+ttvref:
+  type: book
+  title: Towards a Typology of Version. Formal and Functional Perspectives
+  author:
+   - Anderson, Gregory
+   - Gurevich, Olga
+  date: 2005
+
+tpcref:
+  type: book
+  title: Towards a Typology of Pronominal Clitization
+  author: Cysouw, Michael
+  date: 2003
+
+tvcref:
+  type: book
+  title: Towards a Structural Typology of Verb Classes
+  author: Wunderlich, Dieter
+  date: 2005
