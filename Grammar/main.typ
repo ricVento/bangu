@@ -9,29 +9,30 @@
   #block(
     width: 100%,
     height: 100%,
-    fill: rgb("#B7410E"),
+    fill: rgb("#223F5C"),
     inset: 1.5cm,
   )[
     #set text(fill: white)
     #set par(justify: false)
 
-    #align(top + left)[
-      #text(
-	    size: 58pt,
-		font: ("Arial", "Liberation Sans", "DejaVu Sans"),
-		fill: rgb("#FFFFFF")		
-		)[Gramática de la Lengua #_x]
+    #align(top + center)[
+      #v(5cm)
+	  #text(
+	    size: 54pt,
+		font: "Charis",
+		fill: rgb("#F8F5EE"),		
+		)[Gramática #_x]
     ]
 
-    #align(top + left)[
-      #text(size: 32pt,
-	  fill: rgb("#FFFFFF")
+    #align(top + center)[
+      #text(size: 26pt,
+	  fill: rgb("#F8F5EE")
 	  )[Ricardo Ventosinos]
     ]
 	
-	#align(bottom + right)[
+	#align(bottom + center)[
       #text(size: 18pt,
-	  fill: rgb("#FFFFFF")
+	  fill: rgb("#F8F5EE")
 	  )[Draft]
     ]
   ]
@@ -197,5 +198,4 @@
   pagebreak()  
 
   bibliography("referencias.yml", title: [Referencias], full: true)
-
 }

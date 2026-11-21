@@ -51,15 +51,17 @@ Existen siete orientaciones; indican la posición del objeto sin hacer referenci
 - #_ante: delante de un objeto o una persona.
 - #_post: detrás de un objeto o una persona.
 
-Hay seis direcciones; indica específicamente si el objeto está en movimiento y el sentido del mismo.
+Hay cuatro direcciones; indica específicamente si el objeto está en movimiento y el sentido del mismo.
 - Esivo #_esi: situado en un lugar estático, sin movimiento.
-- Lativo #_lat: movimiento con dirección orientada a un punto específico.
-- Versativo #_vers: direccion hacia un punto inespecifico, atélico o sin movimiento; un destino genérico (como _vers_ o _envers_ en francés, _towards_ en inglés).
+- Lativo #_lat: movimiento con dirección puntual en un lugar específico, télico. Dirección con movimiento.
+- Versativo #_vers: direccion geberal hacia un área inespecifica, atélico. Dirección sin movimiento; un destino genérico (como _vers_ o _envers_ en francés, _towards_ en inglés).
 - Elativo #_ela: fuente, origen del movimiento, punto de partida.
-- Translativo #_trans: movimiento a través, atravesando; cambio o transición. 
-- Terminativo #_term: movimiento hasta un destino final, punto de llegada, télico, finalidad. 
 
-La unión de orientaciones y direcciones da lugar a los 42 casos espaciales del #_x.
+Existen otras dos direcciones compuestas que se forman a partir de las direcciones espaciales básicas:
+- Translativo #_trans (#_vers + 'a traves de'): movimiento a través, atravesando; cambio o transición. 
+- Terminativo #_term (#_lat + 'hasta'): movimiento hasta un destino final, punto de llegada, télico, finalidad. 
+
+La unión de orientaciones y direcciones da lugar a los 32 casos espaciales del #_x.
 
 #figure(
    caption: [Casos Espaciales], 
@@ -67,15 +69,38 @@ La unión de orientaciones y direcciones da lugar a los 42 casos espaciales del 
    block(
       width: 100%)[
       #table(
-         columns: (1fr, ) * 7, 
-         align: (left,) * 7, 
-         stroke: none, table.hline(y: 0, stroke: 1pt + black), 
-         table.cell(rowspan:2, align: left + horizon)[*Dirección*],table.cell(colspan:6, align: center)[*Orientación*], 
-         table.hline(y: 2, stroke: 0.5pt + gray),
-		 [Esivo], [Lativo], [Versativo], [Elativo], [Translativo], [Terminativo], [IN], [inesivo \ _(simul)_], [ilativo], [invers], [inelat], [intransl], [interm], [AD], [adesivo], [allativo], [advers], [adelat \ _(abl)_], [adtransl], [adterm], [APUD], [apudesivo], [apudlat], [apudvers], [apudelat], [apudtransl], [apudterm], [SUB], [subesivo], [sublat], [subvers], [subelat], [subtransl], [subterm], [SUPER], [superesivo], [superlat], [supervers], [superelat], [supertransl], [superterm], [ANTE], [antesivo], [antelat], [antevers], [antelat], [antetransl], [anteterm], [POST], [postesivo], [postlat], [postvers], [postelat], [postransl], [posterm], 
+         columns: (1fr, ) * 5, 
+         align: (left,) * 5, 
+         stroke: none,
+		 table.hline(y: 0, stroke: 1pt + black), 
+		 table.vline(x: 1, stroke: 1pt + gray), 
+         table.cell(rowspan:2, align: left + horizon)[*Dirección*], table.cell(colspan:4, align: center)[*Orientación*], 
+		 table.hline(y: 2, stroke: 0.5pt + gray),
+		 [Esivo], [Lativo], [Versativo], [Elativo],
+		 [IN], [_locativo_], [_directivo_], [_inversivo_], [_ablativo_],
+		 [AD], [adesivo], [alativo], [advers.], [adabl.],
+		 [APUD], [apudloc.], [apudlat.], [apudvers.], [apudabl.],
+		 [SUB], [subloc.], [sublat.], [subvers.], [subabl.],
+		 [SUPER], [superloc.], [superlat.], [supervers.], [superabl.],
+		 [ANTE], [antloc.], [antelat.], [antevers.], [anteabl.],
+		 [POST], [postloc.], [postlat.], [postvers.], [postabl.],
          table.hline(y: 9, stroke: 1pt + black),
       )
    ]
 )<tab-casos-espaciales>
 
 #asterismo
+
+todavía sirve 0esto?
+
+#[
+  #set text(fill: red)
+== ANTES:
+Hay seis direcciones; indica específicamente si el objeto está en movimiento y el sentido del mismo.
+- Esivo #_esi: situado en un lugar estático, sin movimiento.
+- Lativo #_lat: movimiento con dirección orientada a un punto específico.
+- Versativo #_vers: direccion hacia un punto inespecifico, atélico o sin movimiento; un destino genérico (como _vers_ o _envers_ en francés, _towards_ en inglés).
+- Elativo #_ela: fuente, origen del movimiento, punto de partida.
+- Translativo #_trans: movimiento a través, atravesando; cambio o transición. 
+- Terminativo #_term: movimiento hasta un destino final, punto de llegada, télico, finalidad. 
+]
