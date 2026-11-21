@@ -1,19 +1,19 @@
 # 🗣️ Bangu: Laboratorio de Conlang
 
-**Bangu** significa "idioma" en *Lojban* y es el hogar digital donde construyo, paso a paso y en **Typst**, la gramática de mi lengua artificial artística y experimental (*artengelang*). 
+Aquí escribo en **Typst** la gramática de una lengua artificial artística y experimental. La palabra **bangu** proviene del Lojban y siginifica "idioma".
 
 ### ✨ ¿Qué encontrarás aquí?
 
-* ⚡ **Desarrollo en vivo:** Avances diarios sobre lingüística y continua actualización de código.
-* 🧪 **Aprendizaje sobre la marcha:** Este es un espacio para mis experimentos sin horarios ni calendarios rígidos.
+* ⚡ **Desarrollo en vivo:** Avances diarios sobre la lingüística del conlang con actualizaciones continuas.
+* 🧪 **Aprendizaje sobre la marcha:** Es un espacio para mis experimentos sin horarios ni calendarios rígidos.
 
 ---
 
 ## 🗺️ Hoja de Ruta
 
-El proyecto crece de forma **iterativa e incremental** mediante tres flujos de trabajo simultáneos que conducen hasta la meta definitiva: la **`Release v1.0`**. 
+El proyecto crece de forma **iterativa e incremental** mediante tres flujos de trabajo simultáneos que conduzca a la meta definitiva: la versión **`Release`**. 
 
-**¡Advertencia!** Habrá cambios radicales sobre la marcha mientras el idioma cobra vida. Los **tres flujos de trabajo** son:
+**¡Advertencia!** Habrá cambios radicales sobre la marcha mientras el conlang cobra vida. Los **tres flujos de trabajo** son:
 
 * 🔍 **Investigación y diseño:** Creación de reglas, bases de datos y plantillas en **Typst** (glosas, tablas y estilo).
 * ✍️ **Redacción de borradores:** Escritura y estructuración de los capítulos en `Grammar/`.
@@ -52,7 +52,8 @@ El proyecto crece de forma **iterativa e incremental** mediante tres flujos de t
 
 ## 🔗 Enlaces rápidos
 * 🌐 **Web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
-* 📜 **Historial de cambios:** [CHANGELOG.md](CHANGELOG.md)
+* 📜 **Historial de cambios:** Sigue los avances en el archivo [CHANGELOG](CHANGELOG.md)
+* 🤝 **¿Quieres dar tu opinión?** Tus comentarios son bienvenidos, por favor lee la [guía](CONTRIBUTING.md) de contribución.
 
 ## 📄 Licencia
 Código abierto y gratuito. Puedes copiarlo, adaptarlo y usarlo sin restricciones, respetando siempre las licencias de recursos o librerías de terceros incluidos.

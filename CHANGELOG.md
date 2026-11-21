@@ -13,6 +13,9 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com), pero 
 ---
 
 ## 🚧 [En desarrollo]
+* 🧪 Investigación, ensayos y pruebas. 
+
+## 📅 2026-11-21
 * ♻️ Ajustes de estilos en Typst.
 * ✨ Capítulos nuevos en `Grammar/`.
 * 🛠️ Correción y edición de la documentación y la página web.

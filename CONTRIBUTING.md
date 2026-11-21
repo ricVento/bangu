@@ -50,5 +50,6 @@ feat > fix > refactor > docs > chore
 ---
 
 ## 🔗 Enlaces rápidos
+* 🗣️ **Conoce el Proyecto:** Puedes ver leer los detalles en [README](README.md)
 * 🌐 **Web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
-* 📜 **Historial de cambios:** [CHANGELOG.md](CHANGELOG.md)
+* 📜 **Historial de cambios:** [CHANGELOG](CHANGELOG.md)
