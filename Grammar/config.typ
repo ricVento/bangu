@@ -35,7 +35,14 @@
 #let _trun = abbreviation("trun", "truncado")
 
 #let _abs = abbreviation("abs", "absolutivo")
+#let _erg = abbreviation("erg", "ergativo")
+#let _gen = abbreviation("gen", "genitivo")
 #let _part = abbreviation("part", "partitivo, genitivo 2")
+#let _dat = abbreviation("dat", "dativo")
+#let _inst = abbreviation("inst", "instrumental")
+#let _adv = abbreviation("adv", "adverbial")
+
+
 #let _ad = abbreviation("ad", "orientacion espacial 'en' \npunto de referencia ")
 #let _ante = abbreviation("ante", "orientacion espacial 'delante de'")
 #let _apud = abbreviation("apud", "orientacion espacial 'cerca de, al lado de'")
@@ -65,6 +72,12 @@
 	v(1em)
 	align(center)[\* \* \*]
 	v(1em)
+}
+
+// TEXTO EN ROJO PARA EDITAR
+#let rojo(cuerpo) = {
+  set text(fill: red)
+  cuerpo
 }
 
 // Configuración estética de la gramática

@@ -1,4 +1,4 @@
 // Importar todo desde config
 #import "../config.typ": *
 
-= Cuento Folklórico
+= Cuento Tradicional

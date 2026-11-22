@@ -9,7 +9,7 @@ Este proyecto contiene la descripción gramatical de la lengua objeto de estudio
   con márgenes hacia adentro, ideal para textos de más de tres líneas.
 ]
 
-La referencia al capítulo @generosyclases[§] y una referencia a la bibliografia @kryref.
+La referencia al capítulo @generos-clases[§] y una referencia a la bibliografia @kryref.
 
 Una tabla generada automaticamente por `Calc`
 

@@ -4,7 +4,7 @@
 = Sustantivos <sustantivos>
 Muchos sustantivos tienen hasta tres raices: de _absolutivo_, de _genitivo_ y de _plural_. En un gran numero de palabras la raiz de plural y de genitivo coinciden en una misma base oblicua, pero es comun que exista un plural exclusivo para el absolutivo plural mientras que el genitivo sirva como base oblicua para formar el resto de casos en ambos números. 
 
-== Género <generosyclases>
+== Género <generos-clases>
 El #_x distingue cuatro géneros en singular y dos en plural. Algunos sustantivos pertenecen a clases distintas según el número. Hay cuatro marcas que se asocian a la clase nominal: #_i, #_ii, #_iii y #_iv.
 
 En singular hay distincion entre seres humanos masculinos (clase #_i) y femeninos (clase #_ii), así como seres animados no humanos (clase #_iii) y objetos inanimados (clase #_iv).
@@ -16,30 +16,15 @@ En la lengua #_x todos los sustantivos distinguen singular y plural. Existe adem
 
 La marca del plural se indica en algunos sustantivos mediante una raiz dedicada. Todos los sustantivos tiene además un sufijo de plural que varía según la semantica y morfologia de la palabra.
 
-== Casos
+== Casos <casos-nominales>
 La categoría de caso gramatical distinguen entre casos _abstractos_ y casos _espaciales_. 
 
-=== Casos Abstractos
+=== Casos Abstractos <casos-abstractos>
 Existen ocho casos gramaticales, la base es el absolutivo, con él se forma tambien el vocativo; para formar el resto de casos es necesario conocer el genitivo, que constituye en muchos sustantivos la forma oblicua.
 
 Con el genitivo se construyen el ergativo, partitivo, dativo, instrumental y adverbial en ambos números. El plural de absolutivo y vocativo tiene una raiz específica.
 
-==== Absolutivo
-El absolutivo es el caso no marcado.
-1. Indica el sujeto de un verbo intransitivo.
- #example[
-  - pajaro salir
-  - pajaro salir
-  'los pajaros se fueron'
- ]
- 
-2. Paciente, Tema u Objeto de un verbo transitivo.
-3. Estímulo de un verbo afectivo.
-4. Sujeto y predicado nominal de la cópula.
-5. Instrumento en los predicados de contacto.
-6. Cumple funciones de Vocativo en los sustantivos que carecen de este caso.
-
-=== Casos Espaciales
+=== Casos Espaciales <casos-espaciales>
 Los casos espaciales tienen dos dimensiones en el espacio: una dimension de orientación y otra de dirección. 
 
 Existen siete orientaciones; indican la posición del objeto sin hacer referencia a su movilidad.
@@ -93,14 +78,11 @@ La unión de orientaciones y direcciones da lugar a los 32 casos espaciales del 
 
 todavía sirve 0esto?
 
-#[
-  #set text(fill: red)
-== ANTES:
+#rojo[== ANTES:
 Hay seis direcciones; indica específicamente si el objeto está en movimiento y el sentido del mismo.
 - Esivo #_esi: situado en un lugar estático, sin movimiento.
 - Lativo #_lat: movimiento con dirección orientada a un punto específico.
 - Versativo #_vers: direccion hacia un punto inespecifico, atélico o sin movimiento; un destino genérico (como _vers_ o _envers_ en francés, _towards_ en inglés).
 - Elativo #_ela: fuente, origen del movimiento, punto de partida.
 - Translativo #_trans: movimiento a través, atravesando; cambio o transición. 
-- Terminativo #_term: movimiento hasta un destino final, punto de llegada, télico, finalidad. 
-]
+- Terminativo #_term: movimiento hasta un destino final, punto de llegada, télico, finalidad. ]

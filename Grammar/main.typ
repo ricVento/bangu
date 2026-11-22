@@ -33,7 +33,7 @@
 	#align(bottom + center)[
       #text(size: 18pt,
 	  fill: rgb("#F8F5EE")
-	  )[Draft]
+	  )[2026]
     ]
   ]
 ]
@@ -91,6 +91,8 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
+    #{set heading(numbering: none)
+	hide[= Parte I]}
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte I] \
     #v(0.5cm)
@@ -102,6 +104,8 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
+    #{set heading(numbering: none)
+	hide[= Parte II]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte II] \
     #v(0.5cm)
@@ -110,10 +114,11 @@
 ]
 
 #include "secciones/fonologia.typ"
-#pagebreak()
 
 #page(numbering: none, header: none)[
   #align(center)[
+    #{set heading(numbering: none)
+	hide[= Parte III]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte III] \
     #v(0.5cm)
@@ -131,7 +136,17 @@
 #pagebreak()
 
 #include "secciones/numerales.typ"
-#pagebreak()
+
+#page(numbering: none, header: none)[
+  #align(center)[
+    #{set heading(numbering: none)
+	hide[= Parte IV]}  
+    #v(5cm)
+	#text(size: 26pt, weight: "bold")[Parte IV] \
+    #v(0.5cm)
+    #text(size: 24pt, style: "italic")[Sustantivos y Nominales]
+  ]
+]
 
 #include "secciones/adverbios.typ"
 #pagebreak()
@@ -145,8 +160,10 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
+    #{set heading(numbering: none)
+	hide[= Parte V]}  
     #v(5cm)
-	#text(size: 26pt, weight: "bold")[Parte IV] \
+	#text(size: 26pt, weight: "bold")[Parte V] \
     #v(0.5cm)
     #text(size: 24pt, style: "italic")[Morfología Verbal]
   ]
@@ -161,8 +178,10 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
+    #{set heading(numbering: none)
+	hide[= Parte VI]}  
     #v(5cm)
-	#text(size: 26pt, weight: "bold")[Parte V] \
+	#text(size: 26pt, weight: "bold")[Parte VI] \
     #v(0.5cm)
     #text(size: 24pt, style: "italic")[Sintaxis]
   ]
@@ -174,8 +193,10 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
+    #{set heading(numbering: none)
+	hide[= Parte VII]}  
     #v(5cm)
-	#text(size: 26pt, weight: "bold")[Parte VI] \
+	#text(size: 26pt, weight: "bold")[Parte VII] \
     #v(0.5cm)
     #text(size: 24pt, style: "italic")[Anexos]
   ]
