@@ -2,16 +2,18 @@
 #import "@preview/eggs:0.10.0": *
 #import abbreviations as abb
 
+#let _pfv = abbreviation("pfv", "aspecto perfectivo \nparticipio perfecto")
+#let _ipfv = abbreviation("ipfv", "aspecto imperfectivo \nparticipio imperfecto")
+#let _caus = abbreviation("caus", "causativo")
+
 #let _aor = abbreviation("aor", "aoristo")
 #let _prs = abbreviation("prs", "presente, presentativo")
 #let _pst = abbreviation("pst", "pasado")
 #let _fut = abbreviation("fut", "futuro")
 #let _event = abbreviation("event", "eventual")
 #let _pf = abbreviation("pf", "perfecto")
-#let _pfv = abbreviation("pfv", "aspecto perfectivo \nparticipio perfecto")
 #let _ppf = abbreviation("ppf", "pluperfecto")
 #let _impf = abbreviation("impf", "imperfecto")
-#let _ipfv = abbreviation("ipfv", "aspecto imperfectivo \nparticipio imperfecto")
 #let _enun = abbreviation("enun", "enunciativo")
 #let _invol = abbreviation("invol", "involuntario, accidental")
 
@@ -37,11 +39,10 @@
 #let _abs = abbreviation("abs", "absolutivo")
 #let _erg = abbreviation("erg", "ergativo")
 #let _gen = abbreviation("gen", "genitivo")
-#let _part = abbreviation("part", "partitivo, genitivo 2")
+#let _gen2 = abbreviation("gen2", "partitivo, genitivo 2")
 #let _dat = abbreviation("dat", "dativo")
 #let _inst = abbreviation("inst", "instrumental")
 #let _adv = abbreviation("adv", "adverbial")
-
 
 #let _ad = abbreviation("ad", "orientacion espacial 'en' \npunto de referencia ")
 #let _ante = abbreviation("ante", "orientacion espacial 'delante de'")
@@ -51,10 +52,11 @@
 #let _sub = abbreviation("sub", "orientacion espacial 'debajo de'")
 #let _super = abbreviation("super", "orientacion espacial 'encima de, sobre'")
 
-#let _esi = abbreviation("esi", "direccion espacial esivo \n'en un lugar estático'")
-#let _lat = abbreviation("lat", "direccion espacial lativo \n'hacia un destino específico'")
-#let _vers = abbreviation("vers", "direccion espacial versativo \n'hacia una dirección general'")
-#let _ela = abbreviation("ela", "direccion espacial elativo \n'desde un origen'")
+#let _loc = abbreviation("loc", "locativo o esivo, direccion espacial \n'en un lugar estático'")
+#let _lat = abbreviation("lat", "lativo, direccion espacial \n'hacia un destino específico'")
+#let _vers = abbreviation("vers", "direccion espacial \n'hacia una dirección general'")
+#let _abl = abbreviation("abl", "ablativo o elativo, direccion espacial \n'desde un origen'")
+
 #let _trans = abbreviation("trans", "direccion espacial translativo \n'a través de'")
 #let _term = abbreviation("term", "direccion espacial terminativo \n'hasta un punto concreto'")
 
@@ -63,6 +65,9 @@
 #let _iii = abbreviation("iii", "clase nominal 3 \nanimado no humano")
 #let _iv = abbreviation("iv", "clase nominal 4 \ninanimado")
 #let _v = abbreviation("v", "clase nominal 5 \ninanimado")
+
+#let _and = abbreviation("and", "partícula de enlace")
+#let _neg = abbreviation("neg", "partícula de negación")
 
 #let _x = "Aghvar"
 
@@ -178,11 +183,27 @@
 	show ref: it => {
 		let el = it.element
 		if el != none and el.func() == heading {
-			[§#counter(heading).at(el.location()).first()]
+			let num = counter(heading).at(el.location())
+			[§#numbering(el.numbering, ..num)]
 		} else {
 			it
 		}
-	}	
+	}
+
+	// AL COMPILAR ARCHIVOS SEPARADOS OMITE REF A OTROS CAPITULOS
+	
+	// cada capitulo debe llevar #show: configuracion_gramatica 
+	// despues del llamado #import "../config.typ": *
+	
+	show ref: it => {
+		if query(it.target).len() == 0 {
+			// Si la etiqueta no está en el archivo, muestra mensaje en lugar de error
+			text(fill: red, weight: "bold")[[Ref: #str(it.target)]]
+		} else {
+			// Si la etiqueta existe en el archivo o al compilar main.typ) se muestra
+			it
+		}
+	}
 
 	show:eggs.with()
 	

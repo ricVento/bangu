@@ -488,3 +488,15 @@ tvcref:
   title: Towards a Structural Typology of Verb Classes
   author: Wunderlich, Dieter
   date: 2005
+  
+marref:
+  type: book
+  title: Mari (Cheremis) Pseudo-Relatives
+  author: Matsumura, Kazuto
+  date: 1983
+  
+mar2ref:
+  type: book
+  title: Mari (Cheremis) Relative Clauses
+  author: Matsumura, Kazuto
+  date: 1987 
