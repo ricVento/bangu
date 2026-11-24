@@ -37,6 +37,10 @@ Marca el instrumento en los predicados de contacto.
  - un texto
  'un texto'
 ]
+
+Un sustantivo se puede emplear adverbialmente en #_abs, en particular para expresar tiempo, espacio o momento
+
+#egtable(6,[one year], [#h(2em)], [one day], [#h(2em)], [pass time],['por un año'],  [#h(2em)],['un día'], [#h(2em)], ['la vez pasada'])
  
 Por último, suple las funciones del Vocativo en los sustantivos que carecen de este caso.
 
@@ -258,11 +262,16 @@ Una excepción es el caso de 'años' que pide el número en ordinal y la orienta
 En sustantivos animados el instrumental solo puede tener connotaciones de comitativo.
 
 #example[
- - un texto
- 'un texto'
- ]
+ - girl boy\-#_inst
+ 'la chica y el chico'
+]
  
 En sustantivos inanimados indica principalmente instrumento o medio. 
+
+#example[
+ - hand\-#_inst
+ 'con la mano'
+]
 
 Usado con adverbios temporales expresa duración télica @dur-tel:b.
 
@@ -304,14 +313,14 @@ Existe más de una forma de vocativo. La más común es el sufijo de vocativo; e
 #asterismo
 
 == Orientaciones Espaciales
-En @casos-espaciales vemos que los 32 casos espaciales se construyen en dos dimensiones: orientación y dirección (@tab-casos-espaciales).
+En @casos-espaciales vemos que los 32 casos espaciales se construyen en dos dimensiones: orientación y dirección (@tab-casos-espaciales). Los complementos espaciales poseen un espectro amplio de matices, en prticular como regímenes verbales.
 
 === Orientación #_in
-Expresa la localización de un objeto dentro de un espacio limtado y cerrado, o una masa amorfa o hueca. Enfatiza el caracter del contenedor que rodea al cuerpo, e.g. 'en el agua', 'en el rio', 'en el mar', 'en la sangre', 'en el bosque', 'en la harina' cuando es una masa; tambien 'en el armerio', 'en el bolsillo', 'en el cajón', 'en el puño' cuando se refiere a espacios.
+Expresa la localización de un objeto dentro de un espacio limitado y cerrado, o bien una masa amorfa o hueca. Enfatiza el caracter del contenedor que rodea al cuerpo, e.g. 'en el agua', 'en el rio', 'en el mar', 'en la sangre', 'en el bosque', 'en la harina' cuando es una masa; tambien 'en el armerio', 'en el bolsillo', 'en el cajón', 'en el puño' cuando se refiere a espacios.
 
 #example[
- - xxx
- 'xxx'
+ - room\-#_in go\-#_proh
+ 'no entres a la habitacion'
 ]
  
 Se puede ser más preciso usando palabras como 'centro' o 'interior' en #_in
@@ -327,13 +336,7 @@ Se puede ser más preciso usando palabras como 'centro' o 'interior' en #_in
 
 La oración @in-centro:b tambien puede decirse repitiendo el sufijo en ambas partes del locativo,
 
-#table(
-   columns: 4, 
-   align: (left,) * 4, 
-   stroke: none,
-   table.cell(rowspan:2)[e.g.],
-   [woman], [village\-#_in], [center\-#_in]
-)
+#egtable(4, filas:1, [woman], [village\-#_in], [center\-#_in])
 
 Con nombres propios y seres animados suele transmitir un sentido _comitativo_
 
@@ -351,6 +354,10 @@ Aunque para indicar el punto exacto en el tiempo se usa #_dat @dat-time, en el c
  + - forty fourth\-#_in
  'en el (año) [19]44'
 ]
+
+El uso temporal transmite una duración limitada
+ 
+#egtable(4, [one year\-#_in], [#h(2em)], [night\-#_gen2 half\-#_in], ['en el espacio de un año'], [#h(2em)], ['en mitad de la noche'], )
 
 === Orientación #_ad
 Su función principal es idicar la localización de un objeto en un lugar de manera inespecífica o general, e.g. 'en la mesa', 'en el arbol'.
@@ -375,14 +382,7 @@ El sufijo #_ad se usa para el miembro femenino del verbo 'desposar, casarse'
 
 Se usa muy comúnmente para formar adverbios temporales
 
-#table(
-   columns: 6, 
-   align: (left,) * 6, 
-   stroke: none,
-   table.cell(rowspan:2)[e.g.],
-   [spring], [spring], [ ], [spring\-#_ad], [in the spring],
-   [summer], [summer], [ ], [summer\-#_ad], [in the summer]   
-)
+#egtable(6,[spring], [spring], [#h(3em)], [spring\-#_ad], [in the spring],[summer], [summer], [#h(3em)], [summer\-#_ad], [in the summer])
 
 Este caso espacial se usa en frases hechas como _caceria\-#_ad ir_ 'ir de cacería'
 
@@ -398,14 +398,8 @@ Siguiendo el significado de contacto, el #_apud se usa en expresiones tipo 'pint
 
 En sintonía con este valor suele acompañar a la postposición 'around'
 
-#table(
-   columns: 4, 
-   align: (left,) * 4, 
-   stroke: none,
-   table.cell(rowspan:2)[e.g.],
-   [neck\-#_apud], [around], ['around the neck'],
-   [neck], [around], [ES]
-)
+#egtable(4, [neck\-#_apud], [around], ['around the neck'],
+   [neck], [around], [])
 
 El apudesivo con el verbo 'cortar' significa 'cortar en más de un lugar', mientras que con apulativo indica 'cortar/partir en dos'
 
@@ -623,14 +617,7 @@ Direccion general hacia un área inespecifica, atélico.
 
 La diferencia con #_lat es lo indefinido del movimiento.
 
-#table(
-   columns: 4, 
-   align: (left,) * 4, 
-   stroke: none,
-   table.cell(rowspan:2)[e.g.],
-   [xxx], [school\-#_super\-#_lat], ['a la escuela'],
-   [xxx], [school\-#_super\-#_vers], ['en dirección a la escuela']
-)
+#egtable(4, [xxx], [school\-#_super\-#_lat], ['a la escuela'], [xxx], [school\-#_super\-#_vers], ['en dirección a la escuela'])
 
 Una forma especial es el #_trans. Indica movimiento a través de un objeto o masa. Tiene tambien valor metafórico indicando 'cambio de estado'.
 

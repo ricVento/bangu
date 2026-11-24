@@ -5,6 +5,7 @@
 #let _pfv = abbreviation("pfv", "aspecto perfectivo \nparticipio perfecto")
 #let _ipfv = abbreviation("ipfv", "aspecto imperfectivo \nparticipio imperfecto")
 #let _caus = abbreviation("caus", "causativo")
+#let _proh = abbreviation("proh", "prohibitivo")
 
 #let _aor = abbreviation("aor", "aoristo")
 #let _prs = abbreviation("prs", "presente, presentativo")
@@ -85,6 +86,21 @@
   cuerpo
 }
 
+// REDUCE PADDING A OTRAS TABLAS DE E.G., uso:
+// #egtable(4, [a], [b], [c], [d], [e], [f])
+// #egtable(3, filas: 3, etiqueta: [p. ej.], [a], [b], [c], [d], [e], [f])
+
+#let egtable(n, filas: 2, etiqueta: [e.g.], ..items) = {
+	show table: set block(above: 1em, below: 1em)
+	table(
+		columns: n,
+		align: (left,) * n,
+		stroke: none,
+		table.cell(rowspan: filas)[#etiqueta],
+		..items.pos()
+	)
+}
+
 // Configuración estética de la gramática
 #let configuracion_gramatica(doc) = {
 	
@@ -156,7 +172,7 @@
 	
 	set enum(indent: 10pt, full: true)
 	
-	// AGREGA PADDING A LAS TABLAS
+	// AGREGA PADDING A LAS TABLAS DENTRO DE FIGURE
 	show figure.where(kind: table): set block(above: 20pt, below: 20pt)
 
 	// REINICIA NUMERADOR DE TABLA EN CADA SECCION
