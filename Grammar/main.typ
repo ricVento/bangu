@@ -77,6 +77,9 @@
 #{
   set heading(numbering: none)
   
+  include "secciones/abreviaturas.typ"
+  pagebreak()  
+  
   include "secciones/ortografia.typ"
   pagebreak()
   
@@ -91,7 +94,7 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
-    #{set heading(numbering: none)
+    #{set heading(numbering: none, bookmarked: false)
 	hide[= Parte I]}
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte I] \
@@ -104,7 +107,7 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
-    #{set heading(numbering: none)
+    #{set heading(numbering: none, bookmarked: false)
 	hide[= Parte II]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte II] \
@@ -117,7 +120,7 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
-    #{set heading(numbering: none)
+    #{set heading(numbering: none, bookmarked: false)
 	hide[= Parte III]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte III] \
@@ -139,7 +142,7 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
-    #{set heading(numbering: none)
+    #{set heading(numbering: none, bookmarked: false)
 	hide[= Parte IV]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte IV] \
@@ -160,7 +163,7 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
-    #{set heading(numbering: none)
+    #{set heading(numbering: none, bookmarked: false)
 	hide[= Parte V]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte V] \
@@ -178,7 +181,7 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
-    #{set heading(numbering: none)
+    #{set heading(numbering: none, bookmarked: false)
 	hide[= Parte VI]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte VI] \
@@ -193,7 +196,7 @@
 
 #page(numbering: none, header: none)[
   #align(center)[
-    #{set heading(numbering: none)
+    #{set heading(numbering: none, bookmarked: false)
 	hide[= Parte VII]}  
     #v(5cm)
 	#text(size: 26pt, weight: "bold")[Parte VII] \
@@ -208,10 +211,7 @@
 // SECCIONES FINALES SIN NUMERO EN INDICE
 #{
   set heading(numbering: none)
-  
-  include "secciones/abreviaturas.typ"
-  pagebreak()
-  
+   
   include "secciones/lista_verbos.typ"
   pagebreak()
   

@@ -441,7 +441,7 @@ sccref:
 
 aspref:
   type: book
-  title: Aspect
+  title: Aspect. An Introduction to the Study of Verbal Aspect and Related Problems
   author: Comrie, Bernard
   date: 1976
   
@@ -499,4 +499,56 @@ mar2ref:
   type: book
   title: Mari (Cheremis) Relative Clauses
   author: Matsumura, Kazuto
-  date: 1987 
+  date: 1987
+  
+hferef:
+  type: book
+  title: Hierarchy of Features and Ergativity
+  author: Silverstein, Michael
+  date: 1976
+  
+gcaref:
+  type: book
+  title: Grammatical Categories in Australian Languages
+  author: Dixon, Robert
+  date: 1976
+
+htwref:
+  type: book
+  title: How to Do Things with Words
+  author: Austin, John Langshaw
+  date: 1962
+
+saeref:
+  type: book
+  title: Speech Acts. An Essay in the Philosophy of Language
+  author: Searle, John
+  date: 1969
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

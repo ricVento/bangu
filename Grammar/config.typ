@@ -107,12 +107,12 @@
 	// FORMATO PAGINA
 	set page(
 		paper: "a4",
-		margin: (x: 3cm, y: 4cm),
+		margin: (x: 2.5cm, y: 3.5cm),
 	)
 	
 	// FORMATO TEXTO	
 	set text(
-		font: "Charis",
+		font: ("Libertinus Serif", "Charis"),
 		size: 11pt,
 		lang: "es",
 		region: "ES"
@@ -161,6 +161,8 @@
 		)
 	)
 	
+	show table.cell: set block(breakable: false)
+	
 	// BIBLIOGRAFIA
 	set bibliography(style: "apa")
 	
@@ -206,8 +208,7 @@
 		}
 	}
 
-	// AL COMPILAR ARCHIVOS SEPARADOS OMITE REF A OTROS CAPITULOS
-	
+	// AL COMPILAR ARCHIVOS SEPARADOS OMITE REF A OTROS CAPITULOS	
 	// cada capitulo debe llevar #show: configuracion_gramatica 
 	// despues del llamado #import "../config.typ": *
 	
@@ -220,6 +221,11 @@
 			it
 		}
 	}
+	
+	show bibliography: set par(
+		leading: 0.65em,
+		spacing: 1em,
+	)
 
 	show:eggs.with()
 	

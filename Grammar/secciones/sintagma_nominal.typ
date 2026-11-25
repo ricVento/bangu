@@ -7,7 +7,7 @@
 == Casos Abstractos
 Como se menciona en @casos-abstractos, existen ocho casos gramaticales abstractos: *absolutivo, ergativo, genitivo, partitivo, dativo, instrumental, adverbial* y *vocativo*.
 
-Estos cumplen funciones pricipales en la oración, a diferencia de los casos espaciales que enfatizan la localizacion y el movimiento en el espacio.
+Estos cumplen funciones argumentales principales en la oración, a diferencia de los casos espaciales que cumplen valores de complemento enfatizando la localizacion y el movimiento en el espacio; también sirven de complemento en una serie de predicados particulares.
 
 === Absolutivo
 El absolutivo es el caso no marcado que indica tanto el sujeto de un verbo como el paciente, tema u objeto de un verbo transitivo.
@@ -31,18 +31,18 @@ Cumple funciones de sujeto y predicado nominal de la cópula.
  'un texto'
 ]
  
-Marca el instrumento en los predicados de contacto.
+Un sustantivo se puede emplear adverbialmente en #_abs, en particular para expresar tiempo, espacio o momento
+
+#egtable(6,[one year], [#h(2em)], [one day], [#h(2em)], [pass time],['por un año'],  [#h(2em)],['un día'], [#h(2em)], ['la vez pasada'])
+
+Este último valor le permite marcar el instrumento en algunos predicados de contacto.
 
 #example[
  - un texto
  'un texto'
 ]
-
-Un sustantivo se puede emplear adverbialmente en #_abs, en particular para expresar tiempo, espacio o momento
-
-#egtable(6,[one year], [#h(2em)], [one day], [#h(2em)], [pass time],['por un año'],  [#h(2em)],['un día'], [#h(2em)], ['la vez pasada'])
  
-Por último, suple las funciones del Vocativo en los sustantivos que carecen de este caso.
+Por último, suple las funciones del Vocativo en los sustantivos que carecen de este caso. Siempre pide el sufijo de vocativo.
 
 === Ergativo
 Es el caso del agente en los verbos transitivos.
@@ -52,7 +52,7 @@ Es el caso del agente en los verbos transitivos.
  'un texto'
 ]
  
-No está restringido a agentes animados, por lo que puede usarse con sustantivos inanimados dond el ergativo indica una fuerza natural
+No está restringido a agentes animados, por lo que puede usarse con sustantivos inanimados donde el ergativo indica una fuerza natural
 
 #example[
  - un texto
@@ -69,8 +69,11 @@ En expresiones de causa o razón puede indicar el causante (aunque es más comú
 Con el verbo 'llenar/estar lleno' indica el contenido
 
 #example[
- - un texto
- 'el corral esta lleno de pollos / llenó la cabaña de paja'
+ + - chicken\-#_erg farm fill
+ 'el corral esta lleno de pollos'
+ #v(0.25cm)
+ + - hay\-#_erg hut fill
+ 'llenó la cabaña de paja'
 ]
 
 === Genitivo <gen-syntax>
@@ -146,7 +149,7 @@ Con pronombres reflexivos enfáticos
 ]
 
 === Partitivo
-El partitivo también es conocido como genitivo 2 por las razones mencionadas en @gen-syntax.
+El partitivo también es conocido como 'genitivo 2' (y así es etiquetado en las glosas) por las razones mencionadas en @gen-syntax. Cumple las mismas funciones que el genitivo en predicados de posesión cuando el objeto poseido está en un caso distinto al absolutivo.
 
 #example[
  - un texto
@@ -312,11 +315,116 @@ Existe más de una forma de vocativo. La más común es el sufijo de vocativo; e
 
 #asterismo
 
+== Direcciones Espaciales  <sintaxis-casos-espaciales>
+Como se mencionó en @casos-espaciales las direcciones son seis, cuatro básicas: *locativo, lativo, versativo, ablativo* y dos derivadas: *translativo* y *terminativo*. Al igual que las orientaciones espaciales, las direcciones no pueden formar casos por sí mismas sino mediante la combinación de ambas. La forma base de las orientaciones es siempre con el #_loc.
+
+=== Dirección #_loc
+Tambien se le llama _esivo_. Es la forma básica o no marcada de las orientaciones espaciales. No es propiamente una dirección ya que transmite más bien la idea de estado en un lugar en ausencia de movimiento, estar situado en un lugar estático.
+
+#example[
+ - xxx
+ 'xxx'
+]
+
+Es la menos precisa de las marcas de localización.
+
+#example[
+ - she village\-#_loc
+ 'ella esta en la aldea'
+]
+
+=== Lativo #_lat
+Tambien llamado _directivo_. El #_lat es esencialmente la dirección espacial elemental. Indica movimiento en una dirección puntual o a un lugar específico, télico.
+
+El #_lat junto al #_apud en combinación con verbos 'ir' y 'venir' indica la dirección del movimiento.
+
+#example[
+ - wolf sheep\-#_apud\-#_lat come\-#_pst
+ 'the wolf came near the sheeps'
+]
+
+El receptor o beneficieario se marca con #_lat y apudlativo dependiendo de si se quiere indicar una transferencia temporal o permanente.
+
+#example[
+ #ex-label(<trans-temp-perm>)
+ + - fool\-#_erg horse khan\-#_lat give
+ 'fool gives a horse to the khan (como regalo)'
+ #v(0.25cm)
+ + - fool\-#_erg horse khan\-#_apud\-#_lat give
+ 'se lo prestó' 
+]
+
+Una forma especial es el #_term. Indica movimiento hasta un punto o un destino final, el punto de llegada. Metafóricamente indica la finalidad. #rojo[forma el CVB terminativo]
+
+#example[
+ - Rustan wall\-#_term
+ 'Rustan camino hasta el muro'
+]
+
+El #_term tiene un valor abstracto en la expresión 'esperar'
+
+#example[
+ - afternoon\-#_term I wait
+ 'esperé hasta la tarde'
+]
+
+=== Versativo #_vers
+Direccion general hacia un área inespecifica, atélico. 
+
+#example[
+ - neighbor\-#_erg girl forest\-#_in\-#_vers
+ 'el vecino se llevo a la chica al bosque'
+]
+
+#example[
+ - Zabayka road Siberia\-#_super\-#_vers
+ 'la via Zabayka conduce a Siberia'
+]
+
+La diferencia con #_lat es lo indefinido del movimiento.
+
+#egtable(4, [xxx], [school\-#_super\-#_lat], ['a la escuela'], [xxx], [school\-#_super\-#_vers], ['en dirección a la escuela'])
+
+Una forma especial es el #_trans. Indica movimiento a través de un objeto o masa, cruzando o atravesando. Tiene tambien valor metafórico indicando cambio de estado o transición.
+
+#example[
+ - window-#_trans look
+ 'miró por la ventana'
+]
+
+Tambien puede indicar movimiento sin dirección concreta; un destino genérico (como _vers_ o _envers_ en francés, _towards_ en inglés).
+
+=== Ablativo #_abl
+Tambien llamado _elativo_. Indica fuente, origen del movimiento, punto de partida.
+
+#example[
+ - Sultan plain\-#_super\-#_abl far.away\-#_lat
+ 'Sultan iba de un lugar a otro'
+]
+
+#example[
+ - Rustan I\-#_super\-#_abl cycle
+ 'Rustán me cogio la bicicleta'
+]
+
+Es simétrico al locativo en no indicar movimiento interno.
+
+#example[
+ - village\-#_abl see\-#_pfv field\-#_in
+ 'desde un campo visible desde la aldea'
+]
+
+#rojo[Ademas
+- Translativo #_trans: movimiento a través, atravesando; cambio o transición. 
+- Terminativo #_term: movimiento hasta un destino final, punto de llegada, télico, finalidad.]
+
+#asterismo
+
 == Orientaciones Espaciales
 En @casos-espaciales vemos que los 32 casos espaciales se construyen en dos dimensiones: orientación y dirección (@tab-casos-espaciales). Los complementos espaciales poseen un espectro amplio de matices, en prticular como regímenes verbales.
 
 === Orientación #_in
-Expresa la localización de un objeto dentro de un espacio limitado y cerrado, o bien una masa amorfa o hueca. Enfatiza el caracter del contenedor que rodea al cuerpo, e.g. 'en el agua', 'en el rio', 'en el mar', 'en la sangre', 'en el bosque', 'en la harina' cuando es una masa; tambien 'en el armerio', 'en el bolsillo', 'en el cajón', 'en el puño' cuando se refiere a espacios.
+Expresa la localización de un objeto dentro de un espacio limitado y cerrado, o bien en el interior de una masa amorfa o hueca, sin distinguir si existe contacto o no con el contenedor, e.g. 'en el agua', 'en el rio', 'en el mar', 'en la sangre', 'en el bosque', 'en la harina' cuando es una masa; tambien 'en el armerio', 'en el bolsillo', 'en el cajón', 'en el puño' , '(dentro) en la boca', cuando se refiere a cavidades o espacios.
 
 #example[
  - room\-#_in go\-#_proh
@@ -360,7 +468,7 @@ El uso temporal transmite una duración limitada
 #egtable(4, [one year\-#_in], [#h(2em)], [night\-#_gen2 half\-#_in], ['en el espacio de un año'], [#h(2em)], ['en mitad de la noche'], )
 
 === Orientación #_ad
-Su función principal es idicar la localización de un objeto en un lugar de manera inespecífica o general, e.g. 'en la mesa', 'en el arbol'.
+Su función principal es idicar la localización de un objeto en o cerca de un lugar de manera inespecífica o general, e.g. 'en la mesa', 'en el arbol'. En un espacio grande, abierto, sin contacto con los bordes del contenedor, e.g. 'en el campo', 'en la montaña'.
 
 #example[
  - xxx
@@ -543,104 +651,28 @@ Indica localizacion metafórica en la expresión 'recordar' (lit. 'venirle sobre
  'la chica recordó (el asunto)'
 ]
 
-El superablativo es el término de comparación (standard).
+El superablativo es el término genérico de comparación, aunque cuando se quiere ser más específico se usan #_ante @ante-comp y #_post @post-comp.
 
 #example[
- - Qurban Nazir-#_super\-#_and brave be
+ #ex-label(<super-comp>)
+ - Qurban Nazir-#_super\-#_abl\-#_and brave
  'Kurban es más valiente que Nazir'
 ]
 
 === Orientación #_ante
+En predicados comparativos se usa en el parámetro de comparación para indicar que el sujeto o elemento comparado es mayor en la caracteristica que indica el adjetivo. El término genérico puede ir en superablativo @super-comp.
+
+#example[
+ #ex-label(<ante-comp>)
+ - Nazir\-#_ante Selim tall
+ 'Selim es más alto que Nazir (lit. Selim es alto ante Nazir)'
+]
 
 === Orientación #_post
-
-#asterismo
-
-== Direcciones Espaciales
-Como se mencionó en @casos-espaciales las direcciones son cuatro: *locativo, lativo, versativo* y *ablativo*. Al igual que las orientaciones espaciales, las direcciones no pueden formar casos por sí mismas sino al combinarse ambas. La forma base de las orientaciones es siempre con el #_loc.
-
-=== Dirección #_loc
-Tambien se le llama _esivo_. Es la forma básica o no marcada de las orientaciones epaciales. No es propiamente una dirección ya que transmite más bien la idea de estado en un lugar en ausencia de movimiento, estar situado en un lugar estático.
+En predicados comparativos se usa en el parámetro de comparación para indicar que el sujeto o elemento comparado es menor en la caracteristica que indica el adjetivo. El término genérico puede ir en superablativo @super-comp.
 
 #example[
- - xxx
- 'xxx'
+ #ex-label(<post-comp>)
+ - Nazir\-#_post Selim tall
+ 'Nazir es más alto que Selim (lit. Selim es alto después de Nazir)'
 ]
-
-=== Lativo #_lat
-Tambien llamado _directivo_. El #_lat es esencialmente la dirección espacial elemental. Indica movimiento en una dirección puntual o a un lugar específico, télico.
-
-El #_lat junto al #_apud en combinación con verbos 'ir' y 'venir' indica la dirección del movimiento.
-
-#example[
- - wolf sheep\-#_apud\-#_lat come\-#_pst
- 'the wolf came near the sheeps'
-]
-
-El receptor o beneficieario se marca con #_lat y apudlativo dependiendo de si se quiere indicar una transferencia temporal o permanente.
-
-#example[
- #ex-label(<trans-temp-perm>)
- + - fool\-#_erg horse khan\-#_lat give
- 'fool gives a horse to the khan (como regalo)'
- #v(0.25cm)
- + - fool\-#_erg horse khan\-#_apud\-#_lat give
- 'se lo prestó' 
-]
-
-Una forma especial es el #_term. Indica movimiento hasta un punto. #rojo[forma el CVB terminativo]
-
-#example[
- - Rustan wall\-#_term
- 'Rustan camino hasta el muro'
-]
-
-El #_term tiene un valor abstracto en la expresión 'esperar'
-
-#example[
- - afternoon\-#_term I wait
- 'esperé hasta la tarde'
-]
-
-=== Versativo #_vers
-Direccion general hacia un área inespecifica, atélico. 
-
-#example[
- - neighbor\-#_erg girl forest\-#_in\-#_vers
- 'el vecino se llevo a la chica al bosque'
-]
-
-#example[
- - Zabayka road Siberia\-#_super\-#_vers
- 'la via Zabayka conduce a Siberia'
-]
-
-La diferencia con #_lat es lo indefinido del movimiento.
-
-#egtable(4, [xxx], [school\-#_super\-#_lat], ['a la escuela'], [xxx], [school\-#_super\-#_vers], ['en dirección a la escuela'])
-
-Una forma especial es el #_trans. Indica movimiento a través de un objeto o masa. Tiene tambien valor metafórico indicando 'cambio de estado'.
-
-#example[
- - window-#_trans look
- 'miró por la ventana'
-]
-
-Tambien puede indicar movimiento sin dirección concreta; un destino genérico (como _vers_ o _envers_ en francés, _towards_ en inglés).
-
-=== Ablativo #_abl
-Tambien llamado _elativo_. Indica fuente, origen del movimiento, punto de partida.
-
-#example[
- - Sultan plain\-#_super\-#_abl far.away\-#_lat
- 'Sultan iba de un lugar a otro'
-]
-
-#example[
- - Rustan I\-#_super\-#_abl cycle
- 'Rustán me cogio la bicicleta'
-]
-
-#rojo[Ademas
-- Translativo #_trans: movimiento a través, atravesando; cambio o transición. 
-- Terminativo #_term: movimiento hasta un destino final, punto de llegada, télico, finalidad.]
