@@ -7,35 +7,37 @@
 == Casos Abstractos
 Como se menciona en @casos-abstractos, existen ocho casos gramaticales abstractos: *absolutivo, ergativo, genitivo, partitivo, dativo, instrumental, adverbial* y *vocativo*.
 
-Estos cumplen funciones argumentales principales en la oración, a diferencia de los casos espaciales que cumplen valores de complemento enfatizando la localizacion y el movimiento en el espacio; también sirven de complemento en una serie de predicados particulares.
+Estos cumplen funciones argumentales principales en la oración, a diferencia de los casos espaciales que cumplen básicamente valores de complemento enfatizando la localizacion y el movimiento en el espacio. 
+
+Ambos tipos de casos gramaticales pueden servir de complemento en una lista de predicados particulares.
 
 === Absolutivo
-El absolutivo es el caso no marcado que indica tanto el sujeto de un verbo como el paciente, tema u objeto de un verbo transitivo.
+El absolutivo es el caso no marcado que indica tanto el sujeto de un verbo intransitivo como el paciente, tema u objeto de un verbo transitivo. En las glosas de esta gramática no se indica por defecto.
 
 #example[
- - un texto
- 'un texto'
+ - girl\-#_abs walk
+ 'la chica camina'
 ]
 
-Es tambien el caso del estímulo de un verbo afectivo.
+Es tambien el caso que marca el estímulo de un verbo afectivo.
 
 #example[
- - un texto
- 'un texto'
+ - girl\-#_dat boy look
+ 'la chica mira al chico'
 ]
 
 Cumple funciones de sujeto y predicado nominal de la cópula.
 
 #example[
- - un texto
- 'un texto'
+ - Nazir man be
+ 'Nazir es un hombre'
 ]
  
 Un sustantivo se puede emplear adverbialmente en #_abs, en particular para expresar tiempo, espacio o momento
 
 #egtable(6,[one year], [#h(2em)], [one day], [#h(2em)], [pass time],['por un año'],  [#h(2em)],['un día'], [#h(2em)], ['la vez pasada'])
 
-Este último valor le permite marcar el instrumento en algunos predicados de contacto.
+#rojo[Este último valor le permite marcar el instrumento en algunos predicados de contacto.]
 
 #example[
  - un texto
@@ -44,51 +46,68 @@ Este último valor le permite marcar el instrumento en algunos predicados de con
  
 Por último, suple las funciones del Vocativo en los sustantivos que carecen de este caso. Siempre pide el sufijo de vocativo.
 
+#example[
+ - Qurban\-#_voc!, home\-#_in come\-#_imp
+ '¡Kurban, vuelve a casa!'
+]
+
 === Ergativo
 Es el caso del agente en los verbos transitivos.
 
 #example[
- - un texto
- 'un texto'
+ - dog\-#_erg cat bite
+ 'el perro muerde al gato'
 ]
  
 No está restringido a agentes animados, por lo que puede usarse con sustantivos inanimados donde el ergativo indica una fuerza natural
 
 #example[
- - un texto
- 'un texto'
+ - river\-#_erg bridge take.away
+ '(la fuerza de) el río se llevó el puente'
 ]
 
-En expresiones de causa o razón puede indicar el causante (aunque es más común el adverbial ya que el ergativo transmite cierta animacidad)
+En expresiones de causa, motivo o razón puede indicar el causante cuando se quiere enfatizar la naturaleza animada de este; aunque es más común usar el adverbial @reason-adv.
 
 #example[
- - un texto
- 'morir por-hambre'
+ #ex-label(<reason-erg>)
+ - hungry\-#_erg die
+ 'morir de hambre'
 ]
 
-Con el verbo 'llenar/estar lleno' indica el contenido
+Con el verbo 'llenar, estar lleno' indica el contenido cuando se trata de seres animados o cuando se omite intencionalmente el agente @fill-gen2.
 
 #example[
- + - chicken\-#_erg farm fill
+ #ex-label(<fill-erg>)
+ + - chicken\-#_erg farm filled be
  'el corral esta lleno de pollos'
- #v(0.25cm)
+ #v(0.2cm)
  + - hay\-#_erg hut fill
  'llenó la cabaña de paja'
 ]
 
+Con seres animados y un agente explicito transmite el significado de 'estar saciado'
+
+#example[
+ + - soup\-#_erg fill I
+ 'estoy saciado de sopa (lit. 'me llené de sopa')'
+ #v(0.2cm)
+ + - egg\-#_erg fill\-#_pst fox\-#_erg
+ 'el zorro quedó saciado con los huevos (lit. 'los huevos llenaron al zorro')'
+]
+
 === Genitivo <gen-syntax>
-Indica relación entre un poseedor que precede a la cosa poseída. Hay dos marcas de posesión en #_x. Con el genitivo se indica el atributo de un sustantivo en asbsolutivo, mientras que si el objeto poseído está en un caso distinto al absolutivo se recurre al partitivo (tambien llamado por eso genitivo 2); de esta forma en #_x presente una forma de _Suffixaufnahme_.
+Indica relación entre un poseedor y la cosa poseída. Hay dos marcas de posesión en #_x: con el genitivo se indica el atributo de un sustantivo en asbsolutivo pero si el objeto poseído está en un caso distinto al absolutivo se recurre al partitivo (tambien llamado por este motivo 'genitivo 2'); de esta forma en #_x presenta un cierto grado de _Suffixaufnahme_.
 
 #example[
  #ex-label(<gen-part>)
- + - un texto
- 'un texto'
- #v(0.25cm)
- + - un texto
- 'un texto' 
+ + - snake\-#_gen head
+ 'la cabeza de la serpiente'
+ #v(0.2cm)
+ + - snake\-#_gen2 head\-#_super beat
+ 'golpeo la cabeza de la serpiente' 
 ]
  
-El genitivo en sí mismo distingue la posesión inalienable y se usa en ambos contextos para el poseedor. El #_apud se usa para la posesión temporal o alienable.
+El genitivo y el partitivo son la marca de la posesión inalienable y se usan siempre para el poseedor. Se recurre al #_apud para la posesión temporal o alienable.
 
 #example[
  #ex-label(<gen-apud>)
@@ -97,16 +116,18 @@ El genitivo en sí mismo distingue la posesión inalienable y se usa en ambos co
  'la mano de la madre'
 ]
 
-En oraciones posesivas el verbo también hace distinción.
+En oraciones posesivas el verbo también contribuye en esta distinción.
 
 #example[
  #ex-label(<gen-apud-verb>)
  + - mother\-#_gen money be
- 'la madre tiene dinero '
- #v(0.25cm)
+ 'la madre tiene dinero (es adinerada)'
+ #v(0.2cm)
  + - mother\-#_apud money be
  'la madre tiene dinero (lo tiene con ella)'
 ]
+
+Con un uso más bien coloquial se puede encontrar la expresión 'money\-#_gen man', 'ser un hombre de dinero (ser adinerado)', donde el genitivo se coloca en el objeto poseído y se transforma en un atributo del sustantivo que le sigue.
 
 La procedencia se indica en partitivo si solo señala el punto de partida, pero el origen o lugar de nacimiento pide genitivo.
 
@@ -114,7 +135,7 @@ La procedencia se indica en partitivo si solo señala el punto de partida, pero 
  #ex-label(<origen-proced>)
  + - moscu-#_gen2
  'vengo de moscú'
- #v(0.25cm)
+ #v(0.2cm)
  + - moscu-#_gen
  'soy de moscú' 
 ]
@@ -123,12 +144,7 @@ Con el verbo 'hacer' construye frases hechas con significado fijo
 
 #example[
  - casa-#_gen hacer
- 'casar (una hija)'
-]
-
-#example[
- - casa-#_gen subir-hacer
- 'casar (un hijo)'
+ 'casar (un hijo/a)'
 ]
 
 #example[
@@ -137,7 +153,7 @@ Con el verbo 'hacer' construye frases hechas con significado fijo
 ]
 
 #example[
- - cuello-#_gen herida-hacer
+ - cuello-#_gen herida hacer
  'decapitar'
 ]
 
@@ -197,11 +213,11 @@ Con valor propiamente partitivo
  'bebe (algo de) agua'
 ]
 
-Con el verbo 'llenar'
+Con el verbo 'llenar, estar lleno' cuando el contenido es algo inanimado o el agente es explicito, de lo contrario se prefiere el ergativo @fill-erg.
 
 #example[
- - un texto
- 'llena el vaso de-vino'
+ - (hombre\-#_erg) vino\-#_gen2 vaso llenar
+ '(el hombre) llena el vaso de-vino'
 ]
 
 La procedencia se indica en partitivo si solo señala el punto de partida, pero el origen o lugar de nacimiento pide genitivo @origen-proced.
@@ -230,18 +246,18 @@ Indica el precio que se paga por un objeto.
  'vendio el burro en 3 rublos'
  ]
 
-Con el adverbio 'por lo tanto' indica causa o interés
+Con el adverbio 'por lo tanto' indica causa o interés, sobre todo si el desencadenante es humano o una acción humana.
 
 #example[
  #ex-label(<dat-caus>)
  + - khan-#_gen2 bondad-#_dat therefore
  'por la benevolencia del Khan'
- #v(0.25cm)
- + - él-#_gen2 error-#_dat therefore
- 'por su equivocación'
+ #v(0.2cm)
+ + - error-#_dat therefore
+ 'por esta equivocación (suya)'
 ]
 
-Un punto concreto en el tiempo o fracciones del mismo
+En acciones o eventos que ocurren de forma periódica, el dativo indica el tiempo #rojo[cuando no son años, estaciones etc]
 
 #example[
  - 2000 rublos dia-#_dat
@@ -252,6 +268,8 @@ Un punto concreto en el tiempo o fracciones del mismo
  - año-#_dat sobrero comprar
  'cada año compra un sombrero'
 ]
+
+Un punto concreto en el tiempo o fracciones del mismo #rojo[menos de una semana o un dia?]
 
 #example[
  #ex-label(<dat-time>)
@@ -276,25 +294,39 @@ En sustantivos inanimados indica principalmente instrumento o medio.
  'con la mano'
 ]
 
-Usado con adverbios temporales expresa duración télica @dur-tel:b.
-
-=== Adverbial
-Principalmente transmite el significado de 'debido a', 'por causa de' o 'gracias a'.
+Usado con adverbios temporales expresa el plazo dentro del cual ocurre o finaliza un evento #ex-ref(left: "cf. ", <dur-adv>).
 
 #example[
- - un texto
- 'un texto'
+ #ex-label(<dur-inst>)
+ - one day-#_inst Gobi\-#_term go\-#_fut I
+ 'viajaré hasta Gobi en un solo dia'
 ]
 
-Esta misma función puede cubrirla el dativo con un adverbio @dat-caus
-
-A diferencia del instrumental, el adverbial hace referencia a una duración atélica.
+En predicados de causa o motivo el instgrumental suele tener connotaciones negativas. Siempre va seguido del adverbio 'therefore'
 
 #example[
- #ex-label(<dur-tel>)
+ - impertinencia\-#_inst therefore
+ 'debido a (su) impertinencia'
+]
+
+=== Adverbial
+Principalmente transmite el significado de 'debido a', 'por causa de' o 'gracias a' cuando se trata de una fuerza inanimada
+
+#example[
+ #ex-label(<reason-adv>)
+ - wind\-#_adv door close
+ 'la puerta se cerró por/con el viento'
+]
+
+Esta misma función puede cubrirla el dativo con un adverbio @dat-caus.
+
+A diferencia del instrumental, el adverbial hace referencia a una duración total del suceso @dur-inst.
+
+#example[
+ #ex-label(<dur-adv>)
  + - yo un mes-#_adv jardin sembrar
- 'sembré el jardín durante un mes'
- #v(0.25cm)
+ 'sembré el jardín durante (a lo largo de) un mes'
+ #v(0.2cm)
  + - yo un mes-#_inst jardin sembrar
  'sembré el jardín en (el plazo de) un mes'
 ]
@@ -349,7 +381,7 @@ El receptor o beneficieario se marca con #_lat y apudlativo dependiendo de si se
  #ex-label(<trans-temp-perm>)
  + - fool\-#_erg horse khan\-#_lat give
  'fool gives a horse to the khan (como regalo)'
- #v(0.25cm)
+ #v(0.2cm)
  + - fool\-#_erg horse khan\-#_apud\-#_lat give
  'se lo prestó' 
 ]
@@ -437,7 +469,7 @@ Se puede ser más preciso usando palabras como 'centro' o 'interior' en #_in
  #ex-label(<in-centro>)
  + - woman village\-#_in
  'la mujer está en la aldea'
- #v(0.25cm)
+ #v(0.2cm)
  + - woman village\-#_gen2 center\-#_in
  'la mujer está en en interior de la aldea'
 ]
@@ -483,7 +515,7 @@ El sufijo #_ad se usa para el miembro femenino del verbo 'desposar, casarse'
  #ex-label(<in-marry>)
  + - father\-#_erg daughter\-#_ad give
  'el padre da a la hija en matrimonio'
- #v(0.25cm)
+ #v(0.2cm)
  + - husband\-#_erg woman\-#_ad take
  'el hombre se casa con la mujer'
 ]
@@ -614,7 +646,7 @@ Se puede usar #_super combinado con la postposición 'above' para indicar 'en la
  #ex-label(<super-above>)
  + - arbol-#_super cuervo
  'un cuervo sobre/en el arbol'
- #v(0.25cm)
+ #v(0.2cm)
  + - arbol-#_super above cuervo
  'un cuervo en (la cima de) el arbol'
 ]
@@ -632,7 +664,7 @@ Puntos concretos en el tiempo o precios exactos piden #_dat; cuando se quiere de
  #ex-label(<super-aprox>)
  + - 3 rublo-#_super
  'vendio el burro en (aprox) 3 rublos'
- #v(0.25cm)
+ #v(0.2cm)
  + - 8am mañana-#_super 
  'se despierta (aprox) a las 8am [sobre las 8am]'
 ]

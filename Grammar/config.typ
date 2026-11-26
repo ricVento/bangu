@@ -6,6 +6,7 @@
 #let _ipfv = abbreviation("ipfv", "aspecto imperfectivo \nparticipio imperfecto")
 #let _caus = abbreviation("caus", "causativo")
 #let _proh = abbreviation("proh", "prohibitivo")
+#let _imp = abbreviation("imp", "imperativo")
 
 #let _aor = abbreviation("aor", "aoristo")
 #let _prs = abbreviation("prs", "presente, presentativo")
@@ -44,6 +45,7 @@
 #let _dat = abbreviation("dat", "dativo")
 #let _inst = abbreviation("inst", "instrumental")
 #let _adv = abbreviation("adv", "adverbial")
+#let _voc = abbreviation("voc", "vocativo")
 
 #let _ad = abbreviation("ad", "orientacion espacial 'en' \npunto de referencia ")
 #let _ante = abbreviation("ante", "orientacion espacial 'delante de'")

@@ -127,7 +127,7 @@ Unas glosas con dos subejemplos
  + - The cats ate the eggs
   - 0art.0def gato.0sg comer.0pas 0art.0def huevo.0pl
   'Los gatos comieron los huevos.'
-   #v(0.25cm)
+   #v(0.2cm)
  + - The dogs ate the bones
   - 0art.0def perro.0sg comer.0pas 0art.0def hueso.0pl
   'Los perros comieron los huesos.'
