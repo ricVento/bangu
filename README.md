@@ -43,6 +43,3 @@ El proyecto crece de forma **iterativa e incremental** mediante tres flujos de t
 * **Web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
 * **Historial de cambios:** Sigue los avances en el archivo [CHANGELOG](CHANGELOG.md).
 * **¿Quieres dar tu opinión?** Tus comentarios son bienvenidos, por favor lee la [guía de contribución](CONTRIBUTING.md).
-
-## Licencia
-Código abierto y gratuito. Puedes copiarlo, adaptarlo y usarlo sin restricciones, respetando siempre las licencias de recursos o librerías de terceros incluidos.
