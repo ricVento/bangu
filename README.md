@@ -1,7 +1,9 @@
-# Bangu: Laboratorio de Conlang
-La palabra **bangu** proviene del Lojban y siginifica "idioma". En este repositorio redacto en lenguaje `.typ` la gramática de un idioma artificial artístico y experimental. 
+# Bangu. Laboratorio de Conlang
+Aquí redacto en `.typ` la gramática de un idioma artificial artístico y experimental. 
 
-* **Desarrollo en vivo:** Avances diarios y actualizaciones continuas sobre la lingüística del conlang.
+La palabra **bangu** proviene del Lojban y siginifica "idioma". 
+
+* **Desarrollo en vivo:** Avances diarios y actualizaciones continuas sobre lingüística en mi conlang.
 * **Aprendizaje sobre la marcha:** Es un espacio para mis experimentos sin horarios ni calendarios rígidos.
 
 ## Hoja de Ruta
@@ -24,7 +26,7 @@ El proyecto crece de forma **iterativa e incremental** mediante tres flujos de t
 | Campo | Descripción |
 | :--- | :---  |
 | `Grammar/` | Carpeta contenedora de los capítulos en **Typst** (reunidos un solo archivo final `main.typ` que dará vida al PDF).  |
-| `index.html` | _Homepage_ donde se presento el proyecto y donde eventualmente iré publicando los capitulos en version web y los enlaces para descargar el PDF. |
+| `index.html` | Pagina de inicio donde se presento el proyecto y donde eventualmente iré publicando los capitulos en version `.html` y los enlaces para descargar el PDF. |
 | `.github/` | Carpeta de _workflow_ con el archivo `.yml` de compilación para los PDF (aun no desplegado). |
 
 ---

@@ -9,11 +9,11 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com), pero 
 
 ---
 
-## 🚧 [En desarrollo]
+## [En desarrollo]
 * Investigación, ensayos y pruebas. 
-* Ajustes y cambios de estilos en Typst.
+* Ajustes y cambios de estilos en `.typ`.
 * Adición de capítulos nuevos en `Grammar/`.
 * Correción y edición de la documentación y la página web.
 
-## 📅 2026-11-14
+## 2026-11-14
 * Creación del repositorio y lanzamiento de la página web.
