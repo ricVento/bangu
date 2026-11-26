@@ -220,3 +220,8 @@
 
   bibliography("referencias.yml", title: [Referencias], full: true)
 }
+
+#hide[
+   Agrega aquí texto que no se verá
+   #_pfv, #_ipfv, #_caus, #_proh, #_imp, #_aor, #_prs, #_pst, #_fut, #_event, #_pf, #_ppf, #_impf, #_enun, #_invol, #_ind, #_evi, #_ded, #_infer, #_deb, #_oblig, #_recom, #_hab, #_subj, #_hyp, #_int, #_opt, #_des, #_pot, #_cond, #_perm, #_trun, #_sg, #_pl, #_abs, #_erg, #_gen, #_gen2, #_dat, #_inst, #_adv, #_voc, #_ad, #_ante, #_apud, #_in, #_post, #_sub, #_super, #_loc, #_lat, #_vers, #_abl, #_trans, #_term, #_i, #_ii, #_iii, #_iv, #_v, #_mas, #_fem, #_neu, #_and, #_neg, #_suj, #_age, #_obj, #_cvb
+]

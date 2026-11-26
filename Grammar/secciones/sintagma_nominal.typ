@@ -89,17 +89,19 @@ Con seres animados y un agente explicito transmite el significado de 'estar saci
 
 #example[
  + - soup\-#_erg fill I
- 'estoy saciado de sopa (lit. 'me llené de sopa')'
+ 'estoy saciado de sopa (lit. me llené de sopa)'
  #v(0.2cm)
  + - egg\-#_erg fill\-#_pst fox\-#_erg
- 'el zorro quedó saciado con los huevos (lit. 'los huevos llenaron al zorro')'
+ 'el zorro quedó saciado con los huevos (lit. los huevos llenaron al zorro)'
 ]
 
 === Genitivo <gen-syntax>
 Indica relación entre un poseedor y la cosa poseída. Hay dos marcas de posesión en #_x: con el genitivo se indica el atributo de un sustantivo en asbsolutivo pero si el objeto poseído está en un caso distinto al absolutivo se recurre al partitivo (tambien llamado por este motivo 'genitivo 2'); de esta forma en #_x presenta un cierto grado de _Suffixaufnahme_.
 
+Tanto el genitivo como el partitivo indican relación de posesión, material, dimensión, etc; el genitivo es menos marcado @gen2-syntax.
+
 #example[
- #ex-label(<gen-part>)
+ #ex-label(<gen-gen2>)
  + - snake\-#_gen head
  'la cabeza de la serpiente'
  #v(0.2cm)
@@ -164,7 +166,7 @@ Con pronombres reflexivos enfáticos
  'lárgate (tu mismo)'
 ]
 
-=== Partitivo
+=== Partitivo <gen2-syntax>
 El partitivo también es conocido como 'genitivo 2' (y así es etiquetado en las glosas) por las razones mencionadas en @gen-syntax. Cumple las mismas funciones que el genitivo en predicados de posesión cuando el objeto poseido está en un caso distinto al absolutivo.
 
 #example[
@@ -172,38 +174,56 @@ El partitivo también es conocido como 'genitivo 2' (y así es etiquetado en las
  'un texto'
 ]
 
-Al igual que el genitivo, se usa para indicar relación; en particular material, ingrediente, unidad de medida, propiedades.
+Compárese
 
 #example[
- - un texto
- 'la villa de-Sanzhi'
+ #ex-label(<gen2-gen-uso>)
+ + - soup-#_gen plate
+ 'un plato de sopa (para beber la sopa)'
+ #v(0.2cm)
+ + - soup-#_gen2 plate
+ 'un plato de sopa (que contiene sopa)'
+]
+
+Al igual que el genitivo, se usa para indicar relación; en particular material, ingrediente, unidad de medida, uso.
+
+#example[
+ - Sanzhi\-#_gen2 village
+ 'la villa de Sanzhi'
 ]
 
 #example[
- - un texto
- 'un hombre de-fuerza'
+ - strenght\-#_gen2 man
+ 'un hombre con fuerza'
 ]
 
 #example[
- - un texto
- 'brazalete de-plata'
+ - silver\-#_gen2 bracelet
+ 'brazalete de plata'
 ]
 
 #example[
- - un texto
- 'litro de-vino'
+ - one wine\-#_gen2 litre
+ 'litro de vino'
 ]
 
 #example[
- - un texto
- 'estofado de-pollo'
+ - chicken\-#_gen2 stew
+ 'estofado de pollo'
+]
+
+El valor de un parámetro de cantidad
+
+#example[
+ - metre\-#_gen2 long stone\-#_pl
+ 'piedras de un metro de largo'
 ]
 
 Expresa la profesión
 
 #example[
- - un texto
- 'trabajo de-veterinario'
+ - vet\-#_gen2 work I
+ 'trabajo como veterinario'
 ]
 
 Con valor propiamente partitivo
@@ -213,11 +233,25 @@ Con valor propiamente partitivo
  'bebe (algo de) agua'
 ]
 
+Como argumento de verbos que significan 'ganar' y 'perder'
+
+#example[
+ - village\-#_in goat\-#_gen2 loose\-#_pst I
+ 'perdí la cabra en el pueblo'
+]
+
 Con el verbo 'llenar, estar lleno' cuando el contenido es algo inanimado o el agente es explicito, de lo contrario se prefiere el ergativo @fill-erg.
 
 #example[
  - (hombre\-#_erg) vino\-#_gen2 vaso llenar
  '(el hombre) llena el vaso de-vino'
+]
+
+El verbo afectivo 'oir' opcionalmente pide el estímulo en partitivo, aunque el absolutivo es la forma menos marcada.
+
+#example[
+ - bird\-#_gen2 hear you
+ 'oyes las aves'
 ]
 
 La procedencia se indica en partitivo si solo señala el punto de partida, pero el origen o lugar de nacimiento pide genitivo @origen-proced.
@@ -287,11 +321,16 @@ En sustantivos animados el instrumental solo puede tener connotaciones de comita
  'la chica y el chico'
 ]
  
-En sustantivos inanimados indica principalmente instrumento o medio. 
+En sustantivos inanimados indica principalmente instrumento, medio o manera. 
 
 #example[
  - hand\-#_inst
  'con la mano'
+]
+
+#example[
+ - patience\-#_inst speak
+ 'habla pacientemente (lit. con paciencia)'
 ]
 
 Usado con adverbios temporales expresa el plazo dentro del cual ocurre o finaliza un evento #ex-ref(left: "cf. ", <dur-adv>).
@@ -329,6 +368,18 @@ A diferencia del instrumental, el adverbial hace referencia a una duración tota
  #v(0.2cm)
  + - yo un mes-#_inst jardin sembrar
  'sembré el jardín en (el plazo de) un mes'
+]
+
+En verbos de 'hablar' o 'pensar' hace referencia al asunto
+
+#example[
+ - Qurban\-#_adv good news hear\-#_pst I\-#_dat
+ 'recibi buenas noticas sobre Kurban'
+]
+
+#example[
+ - you\-#_adv think\-#_fut
+ 'pensaré en ti'
 ]
 
 #rojo[j90]
@@ -384,6 +435,13 @@ El receptor o beneficieario se marca con #_lat y apudlativo dependiendo de si se
  #v(0.2cm)
  + - fool\-#_erg horse khan\-#_apud\-#_lat give
  'se lo prestó' 
+]
+
+En predicados de comparación, se usa cuando hay semejanza
+
+#example[
+ - Murad father\-#_lat similar be
+ 'Murad se parece a su padre'
 ]
 
 Una forma especial es el #_term. Indica movimiento hasta un punto o un destino final, el punto de llegada. Metafóricamente indica la finalidad. #rojo[forma el CVB terminativo]
@@ -692,6 +750,25 @@ El superablativo es el término genérico de comparación, aunque cuando se quie
 ]
 
 === Orientación #_ante
+Indica movimiento hacia delante o en la parte delantera
+
+#example[
+ - Karim car\-#_ante reach
+ 'Karim llegó a la parte delantera del vehículo'
+]
+
+#example[
+ - Hazhi school\-#_ante stand be
+ 'Hazhi estaba parado frente a la escuela'
+]
+
+Movimiento para encontrarse con alguien
+
+#example[
+ - we father\-#_ante go
+ 'fuimos a reunirnos con nuestro padre'
+]
+
 En predicados comparativos se usa en el parámetro de comparación para indicar que el sujeto o elemento comparado es mayor en la caracteristica que indica el adjetivo. El término genérico puede ir en superablativo @super-comp.
 
 #example[
@@ -701,6 +778,27 @@ En predicados comparativos se usa en el parámetro de comparación para indicar 
 ]
 
 === Orientación #_post
+Movimiento a la parte trasera
+
+#example[
+ - ball fence\-#_post fall
+ 'el balón cayó detrás de la verja'
+]
+
+Movimiento en persecusión
+
+#example[
+ - donkey\-#_post run.after
+ 'corrio tras el asno'
+]
+
+Propósito del movimiento o la acción
+
+#example[
+ - water\-#_post go\-#_imp
+ 've a por agua!'
+]
+
 En predicados comparativos se usa en el parámetro de comparación para indicar que el sujeto o elemento comparado es menor en la caracteristica que indica el adjetivo. El término genérico puede ir en superablativo @super-comp.
 
 #example[

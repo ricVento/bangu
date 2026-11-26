@@ -2,12 +2,14 @@
 #import "@preview/eggs:0.10.0": *
 #import abbreviations as abb
 
+// formas infinitivas y aspectos
 #let _pfv = abbreviation("pfv", "aspecto perfectivo \nparticipio perfecto")
 #let _ipfv = abbreviation("ipfv", "aspecto imperfectivo \nparticipio imperfecto")
 #let _caus = abbreviation("caus", "causativo")
 #let _proh = abbreviation("proh", "prohibitivo")
 #let _imp = abbreviation("imp", "imperativo")
 
+// tiempos
 #let _aor = abbreviation("aor", "aoristo")
 #let _prs = abbreviation("prs", "presente, presentativo")
 #let _pst = abbreviation("pst", "pasado")
@@ -19,34 +21,38 @@
 #let _enun = abbreviation("enun", "enunciativo")
 #let _invol = abbreviation("invol", "involuntario, accidental")
 
+// modos
 #let _ind = abbreviation("ind", "modo indicativo")
-#let _evi = abbreviation("evi", "evidencial")
+#let _evi = abbreviation("evid", "evidencial")
 #let _ded = abbreviation("ded", "deductivo")
 #let _infer = abbreviation("infer", "inferencial")
 #let _deb = abbreviation("deb", "debitivo")
 #let _oblig = abbreviation("oblig", "obligativo")
 #let _recom = abbreviation("recom", "recomendador")
 #let _hab = abbreviation("hab", "habitual")
-
 #let _subj = abbreviation("subj", "subjuntivo")
-#let _hyp = abbreviation("hypot", "hipotetico")
+#let _hyp = abbreviation("hyp", "hipotetico")
 #let _int = abbreviation("int", "intencional")
 #let _opt = abbreviation("opt", "optativo")
 #let _des = abbreviation("des", "desiderativo")
 #let _pot = abbreviation("pot", "potencial")
 #let _cond = abbreviation("cond", "condicional")
 #let _perm = abbreviation("perm", "permisivo")
-#let _trun = abbreviation("trun", "truncado")
+#let _trun = abbreviation("trun", "pasado truncado")
 
+// numero y caso
+#let _sg = abbreviation("sg", "singular")
+#let _pl = abbreviation("pl", "plural")
 #let _abs = abbreviation("abs", "absolutivo")
 #let _erg = abbreviation("erg", "ergativo")
 #let _gen = abbreviation("gen", "genitivo")
 #let _gen2 = abbreviation("gen2", "partitivo, genitivo 2")
 #let _dat = abbreviation("dat", "dativo")
 #let _inst = abbreviation("inst", "instrumental")
-#let _adv = abbreviation("adv", "adverbial")
+#let _adv = abbreviation("adv", "adverbial, adverbio")
 #let _voc = abbreviation("voc", "vocativo")
 
+// casos espaciales
 #let _ad = abbreviation("ad", "orientacion espacial 'en' \npunto de referencia ")
 #let _ante = abbreviation("ante", "orientacion espacial 'delante de'")
 #let _apud = abbreviation("apud", "orientacion espacial 'cerca de, al lado de'")
@@ -54,23 +60,32 @@
 #let _post = abbreviation("post", "orientacion espacial 'detrás de'")
 #let _sub = abbreviation("sub", "orientacion espacial 'debajo de'")
 #let _super = abbreviation("super", "orientacion espacial 'encima de, sobre'")
-
 #let _loc = abbreviation("loc", "locativo o esivo, direccion espacial \n'en un lugar estático'")
 #let _lat = abbreviation("lat", "lativo, direccion espacial \n'hacia un destino específico'")
 #let _vers = abbreviation("vers", "direccion espacial \n'hacia una dirección general'")
 #let _abl = abbreviation("abl", "ablativo o elativo, direccion espacial \n'desde un origen'")
-
 #let _trans = abbreviation("trans", "direccion espacial translativo \n'a través de'")
 #let _term = abbreviation("term", "direccion espacial terminativo \n'hasta un punto concreto'")
 
+// clases nominales
 #let _i = abbreviation("i", "clase nominal 1 \nmasculino humano")
 #let _ii = abbreviation("ii", "clase nominal 2 \nfemenino humano")
 #let _iii = abbreviation("iii", "clase nominal 3 \nanimado no humano")
 #let _iv = abbreviation("iv", "clase nominal 4 \ninanimado")
 #let _v = abbreviation("v", "clase nominal 5 \ninanimado")
+#let _mas = abbreviation("m", "masculino")
+#let _fem = abbreviation("f", "femenino")
+#let _neu = abbreviation("n", "neutro")
 
+// particulas y sufijos
 #let _and = abbreviation("and", "partícula de enlace")
 #let _neg = abbreviation("neg", "partícula de negación")
+
+// formas gramaticales
+#let _suj = abbreviation("s", "sujeto prototípico")
+#let _age = abbreviation("a", "argumento agentivo, agente")
+#let _obj = abbreviation("o", "complemento objeto")
+#let _cvb= abbreviation("cvb", "converbo")
 
 #let _x = "Aghvar"
 
@@ -117,7 +132,8 @@
 		font: ("Libertinus Serif", "Charis"),
 		size: 11pt,
 		lang: "es",
-		region: "ES"
+		region: "ES",
+		number-type: "old-style"
 	)
 	
 	// FORMATO NUMERACION DE SECCION		

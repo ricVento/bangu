@@ -24,7 +24,3 @@ Se deben declarar en config.typ; se pueden crear nuevas como variables.
 #columns(2, gutter: 1.5em)[
   #print-abbreviations()
 ]
-
-#hide[
-   Agrega aquí texto que no se verá
-]
