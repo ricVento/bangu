@@ -1,0 +1,10 @@
+# Configuración por defecto para todos los archivos de texto
+* text=auto eol=lf
+
+# Reglas explícitas para tus formatos de documentación y marcado
+LICENSE text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.typ text eol=lf
+

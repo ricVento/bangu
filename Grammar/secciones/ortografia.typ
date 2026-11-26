@@ -2,7 +2,8 @@
 #import "../config.typ": *
 
 = Sistema de Transcripción
-El método de transcripción usado en esta gramática es el mismo usado en distintos trabajos sobre otras variedades de lenguas del Cáucaso. En la tabla inferior se incluye la equivalencia en alfabeto cirílico, de uso extenso en el área del #_x. Las letras entre corchetes representan sonidos que solo ocurren en préstamos.
+El método de transcripción usado en esta gramática coincide con el usado en distintos trabajos sobre otras variedades de lenguas del Cáucaso y lenguas nativas americanas. En la tabla inferior se incluye la equivalencia en alfabeto cirílico, de uso extenso en el área del #_x.
+
 
 #[
   #show figure.where(kind: table): set block(above: 20pt, below: 5pt)
@@ -47,7 +48,8 @@ El método de transcripción usado en esta gramática es el mismo usado en disti
 	[c], [ə], [ʊ], [], [g], [ə],  [ʷ],
 	[c], [ə], [ʊ], [], [g], [ə],  [ʷ],
 	[c], [ə], [ʊ], [], [g], [ə],  [ʷ],
-	table.hline(y: 32, stroke: 1pt + black),
+	[c], [ə], [ʊ], [], [g], [ə],  [ʷ],
+	table.hline(y: 33, stroke: 1pt + black),
 	)
   )
 ]<tabla-transcripcion>

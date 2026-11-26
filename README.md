@@ -25,7 +25,7 @@ El proyecto crece de forma **iterativa e incremental** mediante tres flujos de t
 | :--- | :---  |
 | `Grammar/` | Carpeta contenedora de los capítulos en **Typst** (reunidos un solo archivo final `main.typ` que dará vida al PDF).  |
 | `index.html` | _Homepage_ donde se presento el proyecto y donde eventualmente iré publicando los capitulos en version web y los enlaces para descargar el PDF. |
-| `.github/` | Carpeta de _workflow_ con el archivo `.yaml` de compilación. |
+| `.github/` | Carpeta de _workflow_ con el archivo `.yml` de compilación para los PDF (aun no desplegado). |
 
 ---
 
