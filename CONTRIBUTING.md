@@ -1,15 +1,16 @@
-# Guía de Contribución
-¡Gracias por sumarte a este proyecto! Puedes ayudar de dos maneras:
-* Mejorando o corrigiendo errores en `.typ`
-* Haciendo sugerencias lingüísticas.
+# Contributing Guide
+Thank you for joining this project! You can help in two ways:
 
-Para mantener un historial limpio y fácil de leer, uso una adaptación de [Conventional Commits](https://www.conventionalcommits.org/) pensada especialmente para escribir y editar textos lingüísticos.
+* Improving or fixing errors in `.typ`
+* Making linguistic suggestions.
 
-## ¿Cómo puedes ayudar?
+To keep a clean and easy-to-read history, I use an adaptation of [**Conventional Commits**](https://www.conventionalcommits.org/)  specially designed for writing and editing linguistic texts.
 
-| ¿Dónde? | ¿Cuándo? |
+## How can you help?
+
+| Where? | When? |
 | :--- | :--- |
-| **Gramática** | Tienes ideas sobre un capítulo, nuevas reglas gramaticales, una sección o quieres dar ejemplos relevantes en tu idioma natal. |
-| **Código** | Detectas erratas, faltas de ortografía o ejemplos incorrectos. Reescribir para dar claridad o mover secciones, ajustar formato y estilos. |
-| **Docs** | Corregir la documentación, esta guía o la página web. |
-| **Chore** | Hacer ajustes técnicos en carpetas, plantillas o configuraciones. |
+| **Grammar** | You have ideas about a chapter, new grammatical rules, a section, or want to provide relevant examples in your native language. |
+| **Code** | You spot typos, spelling mistakes, or incorrect examples. Rewriting for clarity, moving sections, or adjusting formatting and styles. |
+| **Docs** | Fixing documentation, this guide, or the website. |
+| **Chore** | Making technical adjustments to folders, templates, or configurations. |

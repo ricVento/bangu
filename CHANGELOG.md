@@ -1,19 +1,15 @@
-# Registro de Cambios
-> Aquí queda huella de toda la evolución de esta gramática. 
-El formato está basado en [Keep a Changelog](https://keepachangelog.com), pero adaptado a la creación de un idioma.
+# Changelog
+Here lies the record of the entire evolution of this grammar. The format is based on [**Keep a Changelog**](https://keepachangelog.com) adapted for language creation.
 
-* **`Añadido`:** Nuevos capítulos, secciones, reglas gramaticales, tablas de paradigmas o entradas al corpus.
-* **`Corregido`:** *Ajustes en la gramática.* Errores en glosas interlineales, ejemplos mal traducidos, erratas, fallos de compilación en Typst o enlaces rotos.
-* **`Cambiado`:** *Estilo y formato.* Reestructuración de capítulos, mejoras de redacción o cambios visuales en los archivos `.typ`.
-* **`Eliminado`:** Hipótesis lingüísticas descartadas, ejemplos redundantes o secciones excluidas.
+* **Added:** New chapters, sections, grammatical rules, paradigm tables, or corpus entries.
+* **Fixed:** Grammar adjustments. Errors in interlinear glosses, mistranslated examples, typos, Typst compilation failures, or broken links.
+* **Changed:** Style and formatting. Chapter restructuring, wording improvements, or visual changes in `.typ` files.
+* **Removed:** Discarded linguistic hypotheses, redundant examples, or excluded sections.
 
----
-
-## [En desarrollo]
-* Investigación, ensayos y pruebas. 
-* Ajustes y cambios de estilos en `.typ`.
-* Adición de capítulos nuevos en `Grammar/`.
-* Correción y edición de la documentación y la página web.
+## [Unreleased]
+* Style adjustments and changes in `.typ`.
+* Addition of new chapters in `Grammar/`.
+* Proofreading and editing of the documentation and the website.
 
 ## 2026-11-14
-* Creación del repositorio y lanzamiento de la página web.
+* Repository creation and website launch.

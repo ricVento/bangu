@@ -1,47 +1,42 @@
-# Bangu. Laboratorio de Conlang
-Aquí redacto en `.typ` la gramática de un idioma artificial artístico y experimental. 
+# Bangu. Conlang Laboratory
+Here I write in Spanish (for now) the grammar of an artistic and experimental constructed language in `.typ`. I hope to have an English version once the original is more developed.
 
-La palabra **bangu** proviene del Lojban y siginifica "idioma". 
+The word *bangu* comes from Lojban and means "language".
 
-* **Desarrollo en vivo:** Avances diarios y actualizaciones continuas sobre lingüística en mi conlang.
-* **Aprendizaje sobre la marcha:** Es un espacio para mis experimentos sin horarios ni calendarios rígidos.
+* **Live development:** Daily progress and continuous updates on linguistics about my conlang.
+* **Learning on the fly:** It is a space for my experiments without rigid schedules or calendars.
 
-## Hoja de Ruta
-El proyecto crece de forma **iterativa e incremental** mediante tres flujos de trabajo simultáneos que conducen a la meta definitiva: la versión **`Release`**. 
+## Roadmap
+The project grows iteratively and incrementally through three simultaneous workflows leading to the ultimate goal: the **Release** version.
 
-1. **Investigación y diseño:** Creación de reglas, bases de datos y plantillas en **Typst** (glosas, tablas y estilo).
-2. **Redacción de borradores:** Escritura y estructuración de los capítulos dentro de la carpeta `Grammar/`.
-3. **Revisión y aportes:** Lectura crítica, validación de ejemplos y pulido del documento junto a la comunidad.
+* **Research and design:** Creation of rules, databases, and Typst templates (glosses, tables, and styling).
+* **Drafting:** Writing and structuring the chapters inside the `Grammar/` folder.
+* **Review and contributions:** Critical reading, example validation, and polishing the document alongside the community.
 
-**¡Advertencia!** Este es un proyecto vivo; puede haber cambios continuos y radicales sobre la marcha mientras se desarrolla el conlang.
+> **Warning!** This is a living project; there may be continuous and radical changes on the fly as the conlang develops.
 
----
+* **Final Goal:** Definitive edition ready to be published as a PDF and discussed.
 
-* **Meta Final:** Edición definitiva lista para publicar en PDF y discutir.
+## Repository Contents
 
----
+| Field | Description |
+| :--- | :--- |
+| `Grammar/` | Folder containing the Typst chapters (compiled into a single final file `main.typ` that generates the PDF). |
+| `index.html` | Landing page introducing the project, where I will eventually publish the chapters in `.html` format and the PDF download links. |
+| `.github/` | Workflow folder containing the `.yml` compilation file for the PDFs (not yet deployed). |
 
-## Contenido del repositorio
+## Join and Contribute!
+Spotted a typo or have some feedback? You are welcome to get involved with your comments and suggestions.
 
-| Campo | Descripción |
-| :--- | :---  |
-| `Grammar/` | Carpeta contenedora de los capítulos en **Typst** (reunidos un solo archivo final `main.typ` que dará vida al PDF).  |
-| `index.html` | Pagina de inicio donde se presento el proyecto y donde eventualmente iré publicando los capitulos en version `.html` y los enlaces para descargar el PDF. |
-| `.github/` | Carpeta de _workflow_ con el archivo `.yml` de compilación para los PDF (aun no desplegado). |
+* Suggest bibliography, contribute examples, or point out questions.
+* Report typos, inconsistencies, or formatting issues.
 
----
+### Submit your contribution!
+* **Questions or suggestions:** Open an [**Issue**](../../issues) with the chapter name in the title.
+* **Direct corrections:** Fork the repository, edit the file, and submit a Pull Request explaining your change.
 
-## ¡Únete y contribuye!
-¿Viste una errata o tienes alguna opinión? Eres bienvenido a formar parte con tus comentarios y sugerencias. 
+## Quick Links
+* **Project website:** [**https://ricvento.github.io/bangu/**](https://ricvento.github.io/bangu/)
+* **Changelog:** Follow the progress in the [**CHANGELOG**](CHANGELOG.md) file.
 
-* Sugiere bibliografía, aporta ejemplos o señala dudas.
-* Reporta erratas, incoherencias o fallos de formato.
-
-### ¡Envia tu aporte!
-* **Dudas o sugerencias:** Abre un [**Issue**](../../issues) poniendo el nombre del capítulo en el título.
-* **Correcciones directas:** Haz un *fork*, edita el archivo y lanza un **Pull Request** explicando tu cambio.
-
-## Enlaces rápidos
-* **Web del proyecto:** [https://ricvento.github.io/bangu/](https://ricvento.github.io/bangu/)
-* **Historial de cambios:** Sigue los avances en el archivo [CHANGELOG](CHANGELOG.md).
-* **¿Quieres dar tu opinión?** Tus comentarios son bienvenidos, por favor lee la [guía de contribución](CONTRIBUTING.md).
+Want to share your thoughts? Your feedback is welcome. Please read the [**contributing guide**](CONTRIBUTING.md).
