@@ -3,11 +3,11 @@ Here lies the record of the entire evolution of this grammar. The format is base
 
 * **Added:** New chapters, sections, grammatical rules, paradigm tables, or corpus entries.
 * **Fixed:** Grammar adjustments. Errors in interlinear glosses, mistranslated examples, typos, Typst compilation failures, or broken links.
-* **Changed:** Style and formatting. Chapter restructuring, wording improvements, or visual changes in `.typ` files.
+* **Changed:** Style and formatting. Chapter restructuring, wording improvements, or visual changes in **Typst** files.
 * **Removed:** Discarded linguistic hypotheses, redundant examples, or excluded sections.
 
 ## [Unreleased]
-* Style adjustments and changes in `.typ`.
+* Style adjustments and changes in **Typst**.
 * Addition of new chapters in `Grammar/`.
 * Proofreading and editing of the documentation and the website.
 

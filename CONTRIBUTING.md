@@ -1,7 +1,7 @@
 # Contributing Guide
 Thank you for joining this project! You can help in two ways:
 
-* Improving or fixing errors in `.typ`
+* Improving or fixing errors in **Typst**
 * Making linguistic suggestions.
 
 To keep a clean and easy-to-read history, I use an adaptation of [**Conventional Commits**](https://www.conventionalcommits.org/)  specially designed for writing and editing linguistic texts.

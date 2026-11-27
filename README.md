@@ -1,5 +1,5 @@
 # Bangu. Conlang Laboratory
-Here I write in Spanish (for now) the grammar of an artistic and experimental constructed language in `.typ`. I hope to have an English version once the original is more developed.
+Here I write in Spanish (for now) the grammar of an artistic and experimental constructed language in **Typst**. I hope to have an English version once the original is more developed.
 
 The word *bangu* comes from Lojban and means "language".
 
@@ -21,9 +21,9 @@ The project grows iteratively and incrementally through three simultaneous workf
 
 | Field | Description |
 | :--- | :--- |
-| `Grammar/` | Folder containing the Typst chapters (compiled into a single final file `main.typ` that generates the PDF). |
-| `index.html` | Landing page introducing the project, where I will eventually publish the chapters in `.html` format and the PDF download links. |
-| `.github/` | Workflow folder containing the `.yml` compilation file for the PDFs (not yet deployed). |
+| [`Grammar/`](Grammar/) | Folder containing the Typst chapters (compiled into a single final file `main.typ` that generates the PDF). |
+| [`index.html`](index.html) | Landing page introducing the project, where I will eventually publish the chapters in `.html` format and the PDF download links. |
+| [`.github/`](.github/workflows/) | Workflow folder containing the `.yml` compilation file for the PDFs (not yet deployed). |
 
 ## Join and Contribute!
 Spotted a typo or have some feedback? You are welcome to get involved with your comments and suggestions.
@@ -37,6 +37,6 @@ Spotted a typo or have some feedback? You are welcome to get involved with your 
 
 ## Quick Links
 * **Project website:** [**https://ricvento.github.io/bangu/**](https://ricvento.github.io/bangu/)
-* **Changelog:** Follow the progress in the [**CHANGELOG**](CHANGELOG.md) file.
+* **Changelog:** Follow the progress in the [**CHANGELOG.md**](CHANGELOG.md) file.
 
 Want to share your thoughts? Your feedback is welcome. Please read the [**contributing guide**](CONTRIBUTING.md).
