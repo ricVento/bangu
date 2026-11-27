@@ -12,11 +12,16 @@ Estos cumplen funciones argumentales principales en la oración, a diferencia de
 Ambos tipos de casos gramaticales pueden servir de complemento en una lista de predicados particulares.
 
 === Absolutivo
-El absolutivo es el caso no marcado que indica tanto el sujeto de un verbo intransitivo como el paciente, tema u objeto de un verbo transitivo. En las glosas de esta gramática no se indica por defecto.
+El absolutivo es el caso no marcado que indica tanto el sujeto #_suj de un verbo intransitivo como el paciente #_pac u objeto #_obj de un verbo transitivo. En las glosas de esta gramática no se indica por defecto.
 
 #example[
  - girl\-#_abs walk
  'la chica camina'
+]
+
+#example[
+ - father\-#_erg Murad\-#_abs catch
+ 'el padre capturó a Murad'
 ]
 
 Es tambien el caso que marca el estímulo de un verbo afectivo.
@@ -52,14 +57,14 @@ Por último, suple las funciones del Vocativo en los sustantivos que carecen de 
 ]
 
 === Ergativo
-Es el caso del agente en los verbos transitivos.
+Es el caso del agente #_age en los verbos transitivos.
 
 #example[
  - dog\-#_erg cat bite
  'el perro muerde al gato'
 ]
  
-No está restringido a agentes animados, por lo que puede usarse con sustantivos inanimados donde el ergativo indica una fuerza natural
+No está restringido a agentes animados, por lo que puede usarse con sustantivos inanimados donde el ergativo indica una fuerza natural.
 
 #example[
  - river\-#_erg bridge take.away
@@ -72,6 +77,13 @@ En expresiones de causa, motivo o razón puede indicar el causante cuando se qui
  #ex-label(<reason-erg>)
  - hungry\-#_erg die
  'morir de hambre'
+]
+
+No es raro encontrarlo como instrumento aunque exista un agente explicito, aunque esta función es típica del instrumental.
+
+#example[
+ - I\-#_erg knife\-#_erg meat cut
+ 'corto la carne con el cuchillo'
 ]
 
 Con el verbo 'llenar, estar lleno' indica el contenido cuando se trata de seres animados o cuando se omite intencionalmente el agente @fill-gen2.
@@ -264,6 +276,27 @@ El dativo es el experimentador de un verbo afectivo
  'ahora él entiende esto'
 ]
 
+El interlocutor siempre va en dativo
+
+#example[
+ - this this\-#_dat tell\-#_pst I
+ 'se lo dije'
+]
+
+Como argumento de algunos verbos como 'cuidar', 'guardar' o 'proteger' donde cumple las funciones de lo que se quiere evitar.
+
+#example[
+ - sparrow\-#_dat grain\-#_pl leave\-#_caus
+ 'proteger los granos de los gorriones (lit. hacer irse a los gorriones)'
+]
+
+#rojo[aqui me planto mas serio: causativos...]
+
+#example[
+ - father\-#_erg boy\-#_dat hay mow
+ 'el padre hizo que el hijo cortara la paja'
+]
+
 Cuando el argumento es humano, más relevante en la escala de jerarquía, o simplemente es importante indicar que es un sustantivo definido, se prefiere el dativo en construcciones de recepción, beneficio o meta.
 
 #example[
@@ -317,8 +350,13 @@ Una excepción es el caso de 'años' que pide el número en ordinal y la orienta
 En sustantivos animados el instrumental solo puede tener connotaciones de comitativo.
 
 #example[
- - girl boy\-#_inst
- 'la chica y el chico'
+ - girl boy\-#_inst forest\-#_in go\-#_pst
+ 'la chica y el chico fueron al bosque (lit. la chica con el chico...)'
+]
+
+#example[
+ - Murad Qurban\-#_inst quarrell
+ 'Murad discutió con Kurban'
 ]
  
 En sustantivos inanimados indica principalmente instrumento, medio o manera. 
@@ -346,6 +384,13 @@ En predicados de causa o motivo el instgrumental suele tener connotaciones negat
 #example[
  - impertinencia\-#_inst therefore
  'debido a (su) impertinencia'
+]
+
+En frases hechas
+
+#example[
+ - that\-#_inst do\-#_cvb, leave
+ 'terminemos con esto y marchémonos (lit. habiendo hecho esto...)'
 ]
 
 === Adverbial
@@ -399,7 +444,7 @@ Existe más de una forma de vocativo. La más común es el sufijo de vocativo; e
 #asterismo
 
 == Direcciones Espaciales  <sintaxis-casos-espaciales>
-Como se mencionó en @casos-espaciales las direcciones son seis, cuatro básicas: *locativo, lativo, versativo, ablativo* y dos derivadas: *translativo* y *terminativo*. Al igual que las orientaciones espaciales, las direcciones no pueden formar casos por sí mismas sino mediante la combinación de ambas. La forma base de las orientaciones es siempre con el #_loc.
+Como se mencionó en @casos-espaciales las direcciones son seis, cuatro básicas: *locativo, lativo, versativo, ablativo* y dos derivadas: *translativo* y *terminativo*. Tanto las orientaciones como las direcciones espaciales no pueden formar casos aislados por sí solas sino mediante la combinación de ambas dimensiones. 
 
 === Dirección #_loc
 Tambien se le llama _esivo_. Es la forma básica o no marcada de las orientaciones espaciales. No es propiamente una dirección ya que transmite más bien la idea de estado en un lugar en ausencia de movimiento, estar situado en un lugar estático.
@@ -412,18 +457,23 @@ Tambien se le llama _esivo_. Es la forma básica o no marcada de las orientacion
 Es la menos precisa de las marcas de localización.
 
 #example[
- - she village\-#_loc
+ - she village\-#_in\-#_loc
  'ella esta en la aldea'
 ]
 
 === Lativo #_lat
-Tambien llamado _directivo_. El #_lat es esencialmente la dirección espacial elemental. Indica movimiento en una dirección puntual o a un lugar específico, télico.
+Tambien llamado _directivo_. El #_lat es esencialmente la dirección espacial elemental. Indica movimiento en una dirección puntual o a un lugar específico e.g. 'al bosque', 'al establo', 'a la madriguera'.
 
-El #_lat junto al #_apud en combinación con verbos 'ir' y 'venir' indica la dirección del movimiento.
+El #_lat junto al #_apud en combinación con verbos 'ir' y 'venir' indica la dirección del movimiento. Especialmente si se trata de un ser animado.
 
 #example[
  - wolf sheep\-#_apud\-#_lat come\-#_pst
  'the wolf came near the sheeps'
+]
+
+#example[
+ - I uncle\-#_lat go
+ 'Fui a casa de mi tío'
 ]
 
 El receptor o beneficieario se marca con #_lat y apudlativo dependiendo de si se quiere indicar una transferencia temporal o permanente.
@@ -535,6 +585,13 @@ Se puede ser más preciso usando palabras como 'centro' o 'interior' en #_in
 La oración @in-centro:b tambien puede decirse repitiendo el sufijo en ambas partes del locativo,
 
 #egtable(4, filas:1, [woman], [village\-#_in], [center\-#_in])
+
+De forma más genérica indica 'among'
+
+#example[
+ - that child\-#_in this boy be\-#_not
+ 'no hay un chico como este entre aquellos niños'
+]
 
 Con nombres propios y seres animados suele transmitir un sentido _comitativo_
 
@@ -668,8 +725,13 @@ El verbo modal 'ser capaz', 'lograr' marca al sujeto con #_apud #rojo[j104]
 El sufijo #_sub expresa el estado de un objeto debajo de algo. A menudo es seguido de la postposición 'under'.
 
 #example[
- - xxx
- 'xxx'
+ - book table\-#_sub fall\-#_pst
+ 'el libro cayó bajo la mesa'
+]
+
+#example[
+ - foot\-#_sub stone jump.out
+ 'una piedra salió bajo nuestros pies'
 ]
  
 Con #_sub tambien se indica un objeto de intercambio.
@@ -683,12 +745,19 @@ En la expresión 'ser adecuado para' (be suitable for)
  'la chica es adecuada para (las labores de) el hogar'
 ]
 
+Tiene un uso metafórico
+
+#example[
+ - illness\-#_sub get.out
+ 'se recuperó de su enfermedad'
+]
+
 === Orientación #_super
 El valor primario de #_super es la ubicación de un objeto sobre una superficie.
 
 #example[
- - xxx
- 'xxx'
+ - rock\-#_super eagle sit.down
+ 'el águila está posada sobre la roca'
  ]
  
 Se usa #_super cuando se refiere a área geográficas
@@ -714,6 +783,20 @@ En la frase 'mi nombre es'
 #example[
  - boy-#_super name Rastam
  'el chico se llama Rastam'
+]
+
+La meta o punto final de un movimiento genérico, sin mas detalles.
+
+#example[
+ - Derbent\-#_super go\-#_msd want
+ 'quiero ir a Derbent'
+]
+
+Se usa frecuentemente cuando el movimiento implica un propósito relacionado con el destino
+
+#example[
+ - school\-#_super go\-#_msd
+ 'ir a la escuela (a estudiar)'
 ]
 
 Puntos concretos en el tiempo o precios exactos piden #_dat; cuando se quiere decir una cantidad aproximada se usa #_super.

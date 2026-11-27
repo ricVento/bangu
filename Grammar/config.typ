@@ -7,6 +7,8 @@
 #let _ipfv = abbreviation("ipfv", "aspecto imperfectivo \nparticipio imperfecto")
 #let _caus = abbreviation("caus", "causativo")
 #let _proh = abbreviation("proh", "prohibitivo")
+#let _inf = abbreviation("inf", "infinitivo")
+#let _msd = abbreviation("msd", "masdar, sustantivo verbal")
 #let _imp = abbreviation("imp", "imperativo")
 
 // tiempos
@@ -80,12 +82,14 @@
 // particulas y sufijos
 #let _and = abbreviation("and", "partícula de enlace")
 #let _neg = abbreviation("neg", "partícula de negación")
+#let _not = abbreviation("not", "sufijo de negación")
 
 // formas gramaticales
 #let _suj = abbreviation("s", "sujeto prototípico")
 #let _age = abbreviation("a", "argumento agentivo, agente")
 #let _obj = abbreviation("o", "complemento objeto")
 #let _cvb= abbreviation("cvb", "converbo")
+#let _pac= abbreviation("p", "paciente prototípico")
 
 #let _x = "Aghvar"
 
@@ -113,6 +117,7 @@
 		columns: n,
 		align: (left,) * n,
 		stroke: none,
+		inset: (y: 2pt, left: 0pt, right: 10pt),
 		table.cell(rowspan: filas)[#etiqueta],
 		..items.pos()
 	)
